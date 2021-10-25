@@ -303,39 +303,34 @@ body {
     align-items: center;
     z-index: 2;
   }
-  @media (min-width: 800px){
+  @media (min-width: 500px){
     .picture{
-        top: 300px;
+      margin: 40px 0px 0px 0px;
     }
   }
   .main-container{
-      width: 300px;
-      height: 150px;
+      width: 280px;
+      height: 140px;
       padding: 0px;
       overflow: hidden;
       z-index: 2;
   }
   @media (min-width: 400px){
     .main-container{
-      height: 300px;
-      width: 450px;
+      width: 400px;
+      height: 266.66px;
     }
   }
   @media (min-width: 450px){
     .main-container{
-      height: 333.334px;
-      width: 500px;
+      height: 300px;
+      width: 450px;
     }
   }
   @media (min-width: 600px){
     .main-container{
       height: 400px;
       width: 600px;
-    }
-  }
-  @media (min-width: 800px){
-    .main-container{
-        margin-top: 80px;
     }
   }
   @media (min-width: 900px){
@@ -345,24 +340,21 @@ body {
     }
   }
   .main-picture{
-    width: 300px;
-    height: 150px;
+    width: 280px;
+    height: 140px;
     z-index: 2;
     margin-top: 0px;
   }
   @media (min-width: 400px){
     .main-picture{
-        width: 450px;
-        height: 300px;
-        margin-left: 0px;
-        height: auto;
-        z-index: 2;  
+        width: 400px;
+        height: 266.66px;
     }
   }
   @media (min-width: 450px){
     .main-picture{
-        width: 500px;
-        height: 333.333px;
+        width: 450px;
+        height: 300px;
         margin-left: 0px;
         height: auto;
         z-index: 2;  
@@ -387,7 +379,7 @@ body {
   /* Info */
 
   .about{
-    margin-top: 20px;
+    margin: 70px 0px 0px 0px;
     height: auto;
     width: auto;
     display: flex;
@@ -396,64 +388,56 @@ body {
     align-items: center;
     z-index: 2;
   }
-  @media (min-width: 600px){
+  @media (min-width: 500px){
       .about{
-          margin-top: 30px;
-          width: 450px;
+          margin: 100px 0px 0px 0px;
       }
   }
-  @media (min-width: 600px){
-      .about{
-          width: 600px;
-      }
-  }
-  #about-h2{
+  .about-h2{
     font-family: 'Permanent Marker', sans-serif;    
     font-size: 36px;
     z-index: 2;
-    margin-top: 40px;
-    margin-bottom: 0px;
+    margin: 10px 0px 0px 0px;
+    width: 100vw;
+    text-align: center;
     background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
   @media (min-width: 350px){
-      #about-h2{
+      .about-h2{
           font-size: 42px;
       }
   }
   @media (min-width: 400px){
-      #about-h2{
+      .about-h2{
           font-size: 46px;
       }
   }
-  @media (min-width: 450px){
-      #about-h2{
-          margin-bottom: 10px;
-      }
-  }
-  @media (min-width: 600px){
-      #about-h2{
-          margin-bottom: 20px;
-          font-size: 60px;
+  @media (min-width: 500px){
+      .about-h2{
+          font-size: 54px;
+          margin: 50px 0px 0px 0px;
       }
   }
   .fundraising-p{
     text-align: left;
-    width: 290px;
+    width: 70%;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
-    padding: 0px 5px 0px 10px; 
     margin: 5px 0px 5px 0px;      
   }
-  .highlight-p{
-    text-align: left;
-    width: 290px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    padding: 0px 5px 0px 10px; 
-    margin: 5px 0px 5px 0px;
-    color: rgb(87, 2, 104);      
+  @media (min-width: 350px){
+      .fundraising-p{
+          font-size: 24px;
+          margin: 20px 0px 5px 0px;   
+
+      }
+  }
+  @media (min-width: 600px){
+      .fundraising-p{
+        width: 500px;
+      }
   }
 
   /* Punch Cards */
@@ -466,16 +450,6 @@ body {
     justify-content: center;
     align-items: center;
     z-index: 2;
-  }
-  #punch-cards-h2{
-    font-family: 'Permanent Marker', sans-serif;    
-    font-size: 36px;
-    text-align: center;
-    z-index: 2;
-    margin: 10px 0px 10px 0px;
-    background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;   
   }
 
   /* Spirit Night */
@@ -511,9 +485,14 @@ body {
     align-items: center;
     align-content: center;
 }
-@media (min-width: 600px){
+@media (min-width: 350px){
     .buttons-section{
-      margin-top: 30px;
+      margin: 10px 0px 30px 0px;
+    }
+}
+@media (min-width: 350px){
+    .buttons-section{
+      margin: 30px 0px 50px 0px;
     }
 }
 .buttons{
@@ -543,6 +522,9 @@ body {
     .buttons-a{
         font-size: 34px;
     }
+}
+.buttons-a:hover {
+    font-size: 36px;
 }
 
   /* Footer */

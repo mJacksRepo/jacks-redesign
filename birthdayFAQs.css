@@ -308,16 +308,14 @@ body {
           margin-top: 30px;
       }
   }
-  @media (min-width: 600px){
-      .faqs{
-      }
-  }
   #faqs-h2{
     font-family: 'Permanent Marker', sans-serif;    
     font-size: 36px;
     z-index: 2;
     margin-top: 70px;
     margin-bottom: 0px;
+    width: 100%;
+    text-align: center;
     background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -349,42 +347,41 @@ body {
       justify-content: center;
       align-content: center;
       align-items: center;
-      width: 300px;
-  }
-  @media (min-width: 400px){
-    .question-div{
-      width: 400px;
-    }
+      width: 100vw;
   }
   .faq-q{
       font-family: 'Oswald', sans-serif;
       font-size: 22px;
       text-align: left !important;
       color: rgb(87, 2, 104);
-      margin: 0px 0px 0px 10px;
-      width: 100%;
+      margin: 10px 0px 0px 0px;
+      width: 75%;
   }
   @media (min-width: 400px){
     .faq-q{
       font-size: 28px;
     }
   }
+  @media (min-width: 600px){
+    .faq-q{
+      width: 500px;
+    }
+  }
   .faq-a{
     text-align: left;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
-    padding: 0px 10px 0px 20px; 
-    margin: 5px 0px 5px 0px;
-    width: 100%;
+    width: 70%;
+    margin: 15px 0px 0px 0px;
   }
   @media (min-width: 400px){
       .faq-a{
         font-size: 22px
       }
   }
-  @media (min-width: 450px){
+  @media (min-width: 600px){
       .faq-a{
-          padding: 0px 15px 0px 20px;
+        width: 500px;
       }
   }
   .faq-highlight{
@@ -397,9 +394,14 @@ body {
       align-items: center;
       height: 60px;
       width: 180px;
-      margin: 15px 0px 15px 0px;
+      margin: 25px 0px 30px 0px;
       border-radius: 1.5px;
       background-image: linear-gradient(to right, rgb(87, 2, 104), rgb(187, 108, 211));
+  }
+  @media (min-width: 400px){
+    .button{
+      margin: 35px 0px 15px 0px;
+    }
   }
   .button-a{
       font-family: 'Oswald', sans-serif;
@@ -407,8 +409,14 @@ body {
       color: #fff;
       text-decoration: none;
   }
+  .button-a:hover {
+      font-size: 26px;
+  }
   #book-a{
       font-size: 26px;
+  }
+  #book-a:hover {
+      font-size: 28px;
   }
   
   /* Footer */
@@ -423,6 +431,11 @@ body {
     align-content: center;
     height: 720px;
     width: 100vw;
+  }
+  @media (min-width: 400px){
+    .info{
+      margin: 40px 0px 0px 0px;
+    }
   }
   @media (min-width: 1100px){
     .info{

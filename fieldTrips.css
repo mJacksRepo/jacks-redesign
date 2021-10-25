@@ -293,24 +293,29 @@ body {
 
   /* Main Picture Section */
   
-  .main-picture{
+  .main{
     margin-top: 50px;
     height: auto;
-    width: auto;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
     z-index: 2;
   }
   @media (min-width: 800px){
-    .main-picture{
-        top: 300px;
+    .main{
     }
   }
   .main-container{
-      width: 400px;
+      width: 100%;
       height: 267px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
       padding: 0px;
       overflow: hidden;
       z-index: 2;
@@ -318,19 +323,16 @@ body {
   @media (min-width: 400px){
     .main-container{
       height: 300px;
-      width: 450px;
     }
   }
   @media (min-width: 450px){
     .main-container{
       height: 333.334px;
-      width: 500px;
     }
   }
   @media (min-width: 600px){
     .main-container{
       height: 400px;
-      width: 600px;
     }
   }
   @media (min-width: 800px){
@@ -340,7 +342,6 @@ body {
   }
   @media (min-width: 900px){
     .main-container{
-        width: 800px;
         height: 533px;
     }
   }
@@ -354,27 +355,19 @@ body {
     .main-picture{
         width: 450px;
         height: 300px;
-        margin-left: 0px;
         height: auto;
-        z-index: 2;  
     }
   }
   @media (min-width: 450px){
     .main-picture{
         width: 500px;
         height: 333.333px;
-        margin-left: 0px;
-        height: auto;
-        z-index: 2;  
     }
   }
   @media (min-width: 600px){
     .main-picture{
         width: 600px;
         height: 400px;
-        margin-left: 0px;
-        height: auto;
-        z-index: 2;  
     }
   }
   @media (min-width: 900px){
@@ -393,26 +386,26 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-content: center;
     align-items: center;
     z-index: 2;
   }
   @media (min-width: 600px){
       .about{
           margin-top: 30px;
-          width: 450px;
       }
   }
   @media (min-width: 600px){
       .about{
-          width: 600px;
       }
   }
   #about-h2{
     font-family: 'Permanent Marker', sans-serif;    
     font-size: 36px;
     z-index: 2;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    width: 100%;
+    text-align: center;
     background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -429,26 +422,12 @@ body {
   }
   @media (min-width: 450px){
       #about-h2{
-          margin-bottom: 10px;
+        margin: 40px 0px 0px 0px;
       }
   }
   @media (min-width: 600px){
       #about-h2{
-          margin-bottom: 20px;
           font-size: 60px;
-      }
-  }
-  .about-p{
-    text-align: left;
-    text-indent: 40px;
-    font-family: 'Oswald', sans-serif;
-    font-size: 2em;
-    padding: 0px 5px 0px 10px; 
-    margin: 5px 0px 5px 0px;
-  }
-  @media (min-width: 450px){
-      .about-p{
-          padding: 0px 15px 0px 20px;
       }
   }
 
@@ -466,6 +445,7 @@ body {
   .packages-h2{
     font-family: 'Permanent Marker', sans-serif;    
     font-size: 36px;
+    width: 100%;
     text-align: center;
     z-index: 2;
     margin: 10px 0px 0px 0px;
@@ -473,23 +453,56 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
   }
+  @media (min-width: 350px){
+    .packages-h2{
+      font-size: 40px;   
+    }
+  }
+  @media (min-width: 450px){
+    .packages-h2{
+      font-size: 46px;   
+    }
+  }
+  @media (min-width: 600px){
+    .packages-h2{
+      margin: 30px 0px 0px 0px; 
+    }
+  }
   .packages-p{
     text-align: left;
-    width: 290px;
+    width: 260px;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     padding: 0px 5px 0px 10px; 
     margin: 5px 0px 5px 0px;      
   }
+  @media (min-width: 350px){
+    .packages-p{
+      margin: 10px 0px 5px 0px;  
+      width: 350px;        
+    }
+  }
+  @media (min-width: 600px){
+    .packages-p{
+      margin: 20px 0px 5px 0px;  
+      width: 450px;
+      font-size: 24px; 
+    }
+  }
   .package-rates-container{
     height: auto;
     width: 290px;
-    margin: 0px 0px 10px 0px;
+    margin: 10px 0px 10px 0px;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     align-content: center;
+  }
+  @media (min-width: 600px){
+    .package-rates-container{
+      width: 400px;
+    }
   }
   .package-rates{
       width: 32vw;
@@ -506,17 +519,32 @@ body {
       color: rgb(32, 26, 58);
       margin: 0px;
   }
+  @media (min-width: 600px){
+    .package-time-p{
+      font-size: 28px;      
+    }
+  }
   .package-rate-p{
       font-family: "Permanent Marker", sans-serif;
       font-size: 32px;
       color: rgb(187, 108, 211);
       margin: 0px;
   }
+  @media (min-width: 600px){
+    .package-rate-p{
+      font-size: 60px;      
+    }
+  }
   .package-per-student-p{
     font-family: 'Oswald';
-    font-size: 18px;
+    font-size: 14px;
     color: rgb(32, 26, 58);     
     margin: 0px; 
+  }
+  @media (min-width: 600px){
+    .package-per-student-p{
+      font-size: 20px;      
+    }
   }
   #food{
     height: auto;
@@ -536,6 +564,16 @@ body {
     align-items: center;
     align-content: center;      
   }
+  @media (min-width: 350px){
+    #food-container{
+      margin: 10px 0px 0px 0px;
+    }
+  }
+  @media (min-width: 600px){
+    #food-container{
+      width: 400px;
+    }
+  }
   #food-price-container{
     height: auto;
     width: 33%;
@@ -550,6 +588,11 @@ body {
     font-size: 40px;
     color: rgb(187, 108, 211);  
     margin: 0px;    
+  }
+  @media (min-width: 600px){
+    #food-price{
+      font-size: 60px;
+    }
   }
   #food-info-container{
     height: auto;
@@ -579,7 +622,7 @@ body {
 }
 @media (min-width: 600px){
     .buttons-section{
-      margin-top: 30px;
+      margin: 30px 0px 30px 0px;
     }
 }
 .buttons{
@@ -609,6 +652,9 @@ body {
     .buttons-a{
         font-size: 34px;
     }
+}
+.buttons-a:hover {
+    font-size: 36px;
 }
 
   /* Footer */

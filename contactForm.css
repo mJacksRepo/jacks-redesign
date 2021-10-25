@@ -316,7 +316,7 @@ body {
       }
   }
   #info-links-container{
-      max-width: 495px;
+      max-width: 480px;
       display: flex;
       flex-direction: row;
       justify-content: center;
@@ -329,7 +329,7 @@ body {
     }
   }
   #info-links-h2{
-      width: 100vw;
+      width: 300px;
       text-align: center;
       font-family: 'Permanent Marker', sans-serif;    
       font-size: 36px;
@@ -343,6 +343,7 @@ body {
   @media (min-width: 450px){
       #info-links-h2{
           font-size: 42px;
+          width: 400px;
       }
   }
   @media (min-width: 600px){
@@ -352,7 +353,7 @@ body {
   }
   .info-button{
       background-color: rgb(87, 2, 104);
-      width: 150px;
+      width: 140px;
       height: 50px;
       margin: 5px 5px 5px 5px;
       border-radius: 2px;
@@ -364,11 +365,8 @@ body {
   .info-a{
       text-decoration: none;
       font-family: 'Oswald', sans-serif;
-      font-size: 18px;
-      color: #fff;
-  }
-  .info-a:hover{
       font-size: 20px;
+      color: #fff;
   }
   @media (min-width: 350px){
     #check-balance{
@@ -396,136 +394,154 @@ body {
     }
   }
 
-  /* Attractions Section */
+  /* Contact Form */
 
-  .attractions-info{
-    margin-top: 10px;
+  .contact-form{
     height: auto;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 2;
-  }
-  @media (min-width: 600px){
-      .attractions-info{
-          margin-top: 30px;
-      }
-  }
-  @media (min-width: 600px){
-      .attractions-info{
-      }
-  }
-  #attractions-h2{
-    font-family: 'Permanent Marker', sans-serif;    
-    font-size: 36px;
     width: 100vw;
-    text-align: center;
-    z-index: 2;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  @media (min-width: 350px){
-      #attractions-h2{
-          font-size: 42px;
-      }
-  }
-  @media (min-width: 400px){
-      #attractions-h2{
-          font-size: 46px;
-      }
-  }
-  @media (min-width: 450px){
-      #attractions-h2{
-          margin-bottom: 10px;
-      }
-  }
-  @media (min-width: 600px){
-      #attractions-h2{
-          margin-bottom: 20px;
-          font-size: 60px;
-      }
-  }
-  .category-div{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-content: center;
-      align-items: center;
-      width: 300px;
-  }
-  @media (min-width: 400px){
-    .category-div{
-      width: 400px;
-    }
-  }
-  .attraction-div{
+    margin: 70px 0px 0px 0px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
     align-items: center;
-    width: 300px;
+    text-align: center;
+    z-index: 2;
+  }
+  #contact-h2{
+    font-family: 'Permanent Marker', sans-serif;    
+    font-size: 30px;
+    width: 100vw;
+    text-align: center;
+    z-index: 2;
+    margin: 0px 0px 0px 0px;
+    background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  @media (min-width: 350px){
+      #contact-h2{
+          font-size: 34px;
+      }
   }
   @media (min-width: 400px){
-    .attraction-div{
-      width: 400px;
-    }
-  }
-  .attractions-h3{
-      font-family: 'Saira Extra Condensed', sans-serif;
-      font-size: 30px;
-      color: rgb(32, 26, 58);
-      margin: 10px 0px 0px 0px;
-  }
-  @media (min-width: 400px){
-    .attractions-h3{
-      font-size: 38px;
-    }
-  }
-  .attractions-h5{
-      font-family: 'Saira Extra Condensed', sans-serif;
-      font-size: 22px;
-      text-align: left !important;
-      color: rgb(87, 2, 104);
-      margin: 0px 0px 0px 10px;
-      width: 70%;
-  }
-  @media (min-width: 400px){
-    .attractions-h5{
-      font-size: 28px;
-    }
-  }
-  .attraction-p{
-    text-align: left;
-    font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    padding: 0px 0px 0px 0px; 
-    margin: 5px 0px 5px 0px;
-    width: 70%;
-  }
-  @media (min-width: 400px){
-      .attraction-p{
-        font-size: 22px
+      #contact-h2{
+          font-size: 46px;
       }
   }
   @media (min-width: 450px){
-      .attraction-p{
-          padding: 0px 15px 0px 20px;
+      #contact-h2{
+          margin-bottom: 10px;
       }
   }
-  .attraction-highlight-p{
-      color: rgb(187, 108, 211);
+  @media (min-width: 600px){
+      #contact-h2{
+          font-size: 60px;
+      }
+  }
+  .contact-form-p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    margin: 5px 0px 0px 0px;
+    padding: 0px 5px 0px 5px;
+  }
+  .short-input-container{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 100vw;
+      margin: 0px 0px 0px 0px;
+  }
+  @media (min-width: 575px){
+    .short-input-container{
+      width: 574px;
+    }
+  }
+  .short-input{
+      width: 130px;
+      margin: 10px 5px 0px 5px;
+      border-style: none;
+      border-bottom: 2px solid rgb(87, 2, 104);
+      background: transparent;
+      font-family: 'Oswald', sans-serif;
+  }
+  @media (min-width: 700px){
+    .short-input{
+      margin: 20px 5px 0px 5px;
+      font-size: 20px;
+      width: 190px;
+    }
+  }
+  .select{
+      width: 134px;
+      margin: 10px 5px 0px 5px;
+      border-style: none;
+      font-family: 'Oswald', sans-serif;
+  }
+  @media (min-width: 700px){
+    .select{
+      font-size: 20px;
+      margin: 20px 5px 0px 5px;
+      width: 194px;
+    }
+  }
+  .long-input{
+      width: 250px;
+      height: 300px;
+      margin: 15px 0px 0px 0px;
+      padding: 5px 5px 5px 5px;
+      border-radius: 1.5px;
+      background: #eee;
+      border: 2px solid rgb(87, 2, 104);
+      font-family: 'Oswald', sans-serif;
+      font-size: 16px;
+  }
+  @media (min-width: 700px){
+    .long-input{
+      width: 550px;
+      font-size: 20px;
+      margin: 35px 0px 0px 0px;
+      padding: 5px 10px 5px 10px;
+    }
+  }
+  .submit-button{
+    width: 140px;
+    height: 50px;
+    margin: 10px 5px 5px 5px;
+    border-radius: 2px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    background-color: rgb(187, 108, 211);
+    border-style: none;
+  }
+  @media (min-width: 400px){
+    .submit-button{
+      height: 80px;
+      width: 180px;
+      font-size: 28px;
+    }
+  }
+  @media (min-width: 700px){
+    .submit-button{
+      height: 80px;
+      width: 180px;
+      margin: 30px 5px 5px 5px;
+    }
+  }
+  .submit-button:hover {
+    font-size: 30px;
+    cursor: pointer;
   }
 
-  /* Pricing */
+  /* Return Links */
 
-  .pricing{
+  .return-links{
     display: flex;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -533,16 +549,16 @@ body {
     margin: 5px 0px 20px 0px;
   }
   @media (min-width: 400px){
-    .pricing{
+    .return-links{
       margin: 30px 0px 0px 0px;
     }
   }
-  @media (min-width: 900px){
-    .pricing{
-      margin: 30px 0px 0px 0px;
+  @media (min-width: 700px){
+    .return-links{
+      margin: 30px 0px 30px 0px;
     }
   }
-  .pricing-button{
+  .return-button{
       background-color: rgb(87, 2, 104);
       width: 140px;
       height: 50px;
@@ -554,21 +570,24 @@ body {
       align-items: center;
   }
   @media (min-width: 400px){
-    .pricing-button{
+    .return-button{
       height: 80px;
       width: 180px;
     }
   }
-  .pricing-a{
+  .return-a{
       text-decoration: none;
       font-family: 'Oswald', sans-serif;
       font-size: 20px;
       color: #fff;
   }
   @media (min-width: 400px){
-    .pricing-a{
+    .return-a{
       font-size: 28px;
     }
+  }
+  .return-a:hover {
+      font-size: 30px;
   }
   
   /* Footer */
