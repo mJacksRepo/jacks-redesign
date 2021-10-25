@@ -1,0 +1,13 @@
+To download files need to click on file
+right click on Raw
+Save as or save link as
+
+in github
+go to jacks-redesign
+code
+add file next to green code button
+upload files
+drag files from file explorer to box
+leave optional extended description
+click on create a new branch
+propose changes
