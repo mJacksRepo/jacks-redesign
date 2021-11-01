@@ -547,9 +547,9 @@ main{
   .group-a{
     font-size: 32px;
   }
-}
-.group-a:hover {
-  font-size: 34px;
+  .group-a:hover {
+    font-size: 34px;
+  }
 }
 
 /* Unlimited Rates */
@@ -663,10 +663,10 @@ main{
   .unlimited-button-p{
     font-size: 24px;
   }
-}
-.unlimited-button-p:hover {
-  font-size: 26px;
-  cursor: pointer;
+  .unlimited-button-p:hover {
+    font-size: 26px;
+    cursor: pointer;
+  }
 }
 #unlimited-cost-estimate{
   display: flex;
@@ -820,9 +820,11 @@ main{
 #off-p{
   color: #fff;
 }
-#off-p:hover {
-  font-size: 24px;
-  cursor: pointer;
+@media (min-width: 600px) {
+  #off-p:hover {
+    font-size: 24px;
+    cursor: pointer;
+  }
 }
 .cabana-div{
   display: flex;
@@ -871,9 +873,9 @@ main{
   #submit-a{
     font-size: 34px;
   }
-}
-#submit-a:hover {
-  font-size: 36px;
+  #submit-a:hover {
+    font-size: 36px;
+  }
 }
 
 /* Other Group Bookings */
@@ -946,89 +948,115 @@ main{
   .other-groups-a{
     font-size: 34px;
   }
-}
-.other-groups-a:hover {
-  font-size: 36px;
+  .other-groups-a:hover {
+    font-size: 36px;
+  }
 }
 
 /* Footer */
 
-.info{
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  background-color: #fff;
-  align-content: center;
-  height: 720px;
-}
-@media (min-width: 1100px){
   .info{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
     background-color: #fff;
     align-content: center;
-    align-items: center;
-    height: 280px;
+    height: auto;
+    width: 100vw;
+    margin: 0px 0px 0px 0px;
   }
-}
-.footer-column{
-  align-self: center;
-}
-@media (min-width: 1100px){
+  @media (min-width: 1100px){
+    .info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: #fff;
+      align-content: center;
+      align-items: center;
+      height: 280px;
+    }
+  }
   .footer-column{
     align-self: center;
+  }
+  @media (min-width: 1100px){
+    .footer-column{
+      align-self: center;
+      align-self: flex-start;
+    }
+  }
+  #footer-logo{
+    margin-top: 30px;
+  }
+  .footer-h4{
+    font-size: 1.7em;
+    font-family: 'Oswald', sans-serif;
+  }
+  .footer-p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+  }
+  .footer-a{
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    color: #000;
+  }
+  .social-media-icons-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 130px;
+    height: 63px;
+    margin-left: 63px;
+    margin-top: 15px;
+  }
+  #facebook-icon{
     align-self: flex-start;
   }
-}
-#footer-logo{
-  margin-top: 30px;
-}
-.footer-h4{
-  font-size: 16px;
-  font-family: 'Oswald', sans-serif;
-}
-.footer-p{
-  font-family: 'Oswald', sans-serif;
-  font-size: 14px;
-}
-.footer-a{
-  font-family: 'Oswald', sans-serif;
-  font-size: 14px;
-  color: #000;
-}
-.social-media-icons-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  width: 130px;
-  height: 63px;
-  margin-left: 63px;
-  margin-top: 15px;
-}
-#facebook-icon{
-  align-self: flex-start;
-}
-#instagram-icon{
-  align-self: flex-end;
-}
-#copyright{
-  color: #000;
-  font-family: 'Oswald', sans-serif;
-  font-size: 12px;
-}
-.footer-border{
-  position: absolute;
-  height: 730px;
-  width: 100%;
-  z-index: -1;
-  background-image: linear-gradient(to right, rgb(4, 3, 53), rgb(60, 23, 196));
-}
-@media (min-width: 1100px){
-  .footer-border{
-    height: 290px;
+  #instagram-icon{
+    align-self: flex-end;
   }
-}
+  #copyright{
+    color: #000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1em;
+    margin-top: 15px;
+  }
+  .footer-border{
+    align-self: flex-start;
+    margin: -5px 0px 0px 0px;
+    height: 5px;
+    width: 100%;
+    z-index: -1;
+    background-image: linear-gradient(to right, rgb(4, 3, 53), rgb(60, 23, 196));
+  }
+  @media (min-width: 1100px) {
+    .footer-border {
+      position: absolute;
+      align-self: flex-start;
+      margin: -5px 0px 0px 0px;
+      height: 5px;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  .bottom-footer-border {
+    margin: 0px 0px 0px 0px;
+    height: 20px;
+    width: 100%;
+    z-index: -1;
+    background-color: #fff;
+  }
+  @media (min-width: 1100px) {
+    .bottom-footer-border {
+      position: absolute;
+      align-self: flex-end;
+      margin: 20px 0px 0px 0px;
+      height: 20px;
+      width: 100%;
+      z-index: -1;
+      background-color: #fff;
+    }
+  }

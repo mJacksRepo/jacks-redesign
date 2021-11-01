@@ -25,11 +25,11 @@ Editing site content:
             download the file again with the above added step to save correctly
         6. In the .html file near the very bottom in a <script> element a .js file will be mentioned
         7. Download it from Github and save in the same file as the .html file
+        8. For pictures to display correctly create a file within the file used above and title it
+        JacksImages
             *OPTIONAL* for images to display correctly
             *SUGGESTED* only do this on a Malibu Jack's work computer as image files can require significant amount of memory
             *NOTE* The only downside to not having pictures as you edit is that you do not see them as you edit
-        8. For pictures to display correctly create a file within the file used above and title it
-        JacksImages
         9. Either download the specific files located in <img> elements on the .html file or download the 
         entire jacksImages folder
         10. Open .html file using Visual Studio Code

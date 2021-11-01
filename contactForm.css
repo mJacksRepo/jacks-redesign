@@ -531,10 +531,10 @@ body {
       width: 180px;
       margin: 30px 5px 5px 5px;
     }
-  }
-  .submit-button:hover {
-    font-size: 30px;
-    cursor: pointer;
+    .submit-button:hover {
+      font-size: 30px;
+      cursor: pointer;
+    }
   }
 
   /* Return Links */
@@ -586,23 +586,25 @@ body {
       font-size: 28px;
     }
   }
-  .return-a:hover {
-      font-size: 30px;
+  @media (min-width: 700px) {
+    .return-a:hover {
+        font-size: 30px;
+    }
   }
   
   /* Footer */
 
   .info{
     display: flex;
-    margin: 30px 0px 0px 0px;
     flex-direction: column;
     justify-content: center;
     text-align: center;
     align-content: center;
     background-color: #fff;
     align-content: center;
-    height: 720px;
+    height: auto;
     width: 100vw;
+    margin: 0px 0px 0px 0px;
   }
   @media (min-width: 1100px){
     .info{
@@ -662,14 +664,38 @@ body {
     margin-top: 15px;
   }
   .footer-border{
-    position: absolute;
-    height: 730px;
+    align-self: flex-start;
+    margin: -5px 0px 0px 0px;
+    height: 5px;
     width: 100%;
     z-index: -1;
     background-image: linear-gradient(to right, rgb(4, 3, 53), rgb(60, 23, 196));
   }
-  @media (min-width: 1100px){
-    .footer-border{
-      height: 290px;
+  @media (min-width: 1100px) {
+    .footer-border {
+      position: absolute;
+      align-self: flex-start;
+      margin: -5px 0px 0px 0px;
+      height: 5px;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+  .bottom-footer-border {
+    margin: 0px 0px 0px 0px;
+    height: 20px;
+    width: 100%;
+    z-index: -1;
+    background-color: #fff;
+  }
+  @media (min-width: 1100px) {
+    .bottom-footer-border {
+      position: absolute;
+      align-self: flex-end;
+      margin: 20px 0px 0px 0px;
+      height: 20px;
+      width: 100%;
+      z-index: -1;
+      background-color: #fff;
     }
   }

@@ -1,23 +1,3 @@
-/*
-
-Known bugs:
-
-1. following opening a submenu and closing the menu without closing the 
-submenu upon opening the menu again the submenu will be closed but the arrow will be
-rotated as if the submenu is open
-
-Fixed but the arrow sits 5-10px too low
-Look at changes made to styling when arrow is flipped
-
-2. closing menu and then expanding to desktop width leaves display as none
-fixed
-
-3. Using the hover script messes up the dropdown in mobile menu
-
-4. Using mobile and then going back to desktop width drops desktop menu to bottom of 
-container div for submenu
-
-*/
 
 /* Mobile Navbar */
 

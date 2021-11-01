@@ -1,23 +1,3 @@
-/*
-
-Known bugs:
-
-1. following opening a submenu and closing the menu without closing the 
-submenu upon opening the menu again the submenu will be closed but the arrow will be
-rotated as if the submenu is open
-
-Fixed but the arrow sits 5-10px too low
-Look at changes made to styling when arrow is flipped
-
-2. closing menu and then expanding to desktop width leaves display as none
-fixed
-
-3. Using the hover script messes up the dropdown in mobile menu
-
-4. Using mobile and then going back to desktop width drops desktop menu to bottom of 
-container div for submenu
-
-*/
 
 /* Mobile Navbar */
 
@@ -222,14 +202,14 @@ function scrollFunction() {
   }
 }
 */
-/*Slides*//*
+/*Slides*/
 
 var slideIndex1 = 0;
 showSlides1();
 
 function showSlides1() {
     var i;
-    var slides = document.getElementsByClassName("birthdays-container");
+    var slides = document.getElementsByClassName("slideshow-container");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
@@ -237,23 +217,7 @@ function showSlides1() {
     slideIndex1++;
     if (slideIndex1 > slides.length) { slideIndex1 = 1 }
     slides[slideIndex1 - 1].style.display = "block";
-    setTimeout(showSlides1, 3000); // Change image every 3 seconds
-}
-
-var slideIndex2 = 0;
-showSlides2();
-
-function showSlides2() {
-  var i;
-  var slides = document.getElementsByClassName("groups-container");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  slideIndex2++;
-  if (slideIndex2 > slides.length) { slideIndex2 = 1 }
-  slides[slideIndex2 - 1].style.display = "block";
-  setTimeout(showSlides2, 6000); // Change image every 6 seconds
+    setTimeout(showSlides1, 4500); // Change image every 4.5 seconds
 }
 
 /* Package Selection */
