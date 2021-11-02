@@ -291,7 +291,7 @@ body {
     }
   }
 
-/* main */
+/* Main */
 
 main{
   height: 400px;
@@ -377,6 +377,63 @@ main{
 @media (min-width: 1700px){
   .main-picture{
     margin-left: 0px;
+  }
+}
+.slogan {
+  display: flex;
+  position: absolute;
+  margin: 120px 0px 0px 60px;
+  height: 150px;
+  width: auto;
+  z-index: 3;
+}
+@media (min-width: 300px) {
+  .slogan {
+    margin: 120px 0px 0px 70px;
+  }
+}
+@media (min-width: 325px) {
+  .slogan {
+    margin: 120px 0px 0px 80px;
+  }
+}
+@media (min-width: 350px) {
+  .slogan {
+    margin: 120px 0px 0px 100px;
+  }
+}
+@media (min-width: 400px) {
+  .slogan {
+    margin: 100px 0px 0px 100px;
+    height: 200px;
+  }
+}
+@media (min-width: 600px) {
+  .slogan {
+    margin: 100px 0px 0px 160px;
+    height: 200px;
+  }
+}
+@media (min-width: 700px) {
+  .slogan {
+    margin: 100px 0px 0px 210px;
+    height: 200px;
+  }
+}
+@media (min-width: 900px) {
+  .slogan {
+    margin: 100px 0px 0px 270px;
+    height: 400px;
+  }
+}
+@media (min-width: 1100px) {
+  .slogan {
+    margin: 100px 0px 0px 370px;
+  }
+}
+@media (min-width: 1300px) {
+  .slogan {
+    margin: 150px 0px 0px 500px;
   }
 }
 .fun-is-awesome{
@@ -491,18 +548,14 @@ main{
   .announced-location-p{
     text-align: left;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
-    padding: 0px 20px 0px 20px; 
-    margin: 15px 0px 0px 0px;
+    font-size: 2em;
+    width: 70%;
+    padding: 0px 0px 0px 0px; 
+    margin: 5px 0px 5px 0px;
   }
-  @media (min-width: 400px){
-    .announced-location-p{
-        font-size: 22px
-      }
-  }
-  @media (min-width: 450px){
-    .announced-location-p{
-          padding: 0px 15px 0px 20px;
+  @media (min-width: 600px){
+      .announced-location-p{
+        width: 500px;
       }
   }
   .p-highlight{
@@ -529,6 +582,239 @@ main{
       font-size: 22px;
       color: #fff;
       text-decoration: none;
+  }
+  @media (min-width: 600px) {
+    .button-a:hover {
+      font-size: 23px;
+    }
+  }
+
+  /* Experiences Section */
+  
+  .experiences{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-content: flex-start;
+    height: auto;
+    margin: 20px 0px 0px 0px;
+  }
+  @media (min-width: 400px){
+    .experiences{
+      width: 100vw;
+    }
+  }
+  @media (min-width: 500px){
+    .experiences{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-content: flex-start;
+    }
+  }
+  @media (min-width: 1100px){
+    .experiences{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      align-content: center;
+      margin: 100px 0px 0px 0px;
+    }
+  }
+  .experiences-h2{
+    font-family: 'Permanent Marker', sans-serif;    
+    font-size: 30px;
+    width: 100vw;
+    z-index: 2;
+    color: rgb(39, 33, 41);
+    text-align: center;
+    margin: 0px 0px 0px 0px;
+    display: none;
+  }
+  @media (min-width: 400px){
+    .experiences-h2{
+      font-size: 36px;
+    }
+  }
+  @media (min-width: 450px){
+    .experiences-h2{
+      font-size: 38px;
+    }
+  }
+  @media (min-width: 500px){
+    .experiences-h2{
+      font-size: 48px;
+    }
+  }
+  @media (min-width: 1100px){
+    .experiences-h2{
+      font-size: 64px;
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      align-self: center;
+      width: 100vw;
+      text-align: center;
+    }
+  }
+  .experiences-container{
+    width: 280px;
+    height: 671.666px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    overflow: hidden;
+  }
+  @media (min-width: 300px){
+    .experiences-container{
+      width: 300px;
+      height: 718.33px !important;
+    }
+  }
+  @media (min-width: 400px){
+    .experiences-container{
+      width: 380px;
+      height: 905px !important;
+    }
+  }
+  @media (min-width: 500px){
+    .experiences-container{
+      width: 500px;
+      height: 1188.33px !important;
+    }
+  }
+  @media (min-width: 1100px){
+    .experiences-container{
+      margin: 20px 0px 0px 0px;
+      width: 995px;
+      height: 668.333px !important;
+      justify-content: space-between;
+    }
+  }
+  @media (min-width: 1245px){
+    .experiences-container{
+      width: 1245px;
+      height: 500px !important;
+      justify-content: space-between;
+    }
+  }
+  .attraction{
+    width: 137.5px;
+    height: 91.666px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    overflow: hidden;
+  }
+  @media (min-width: 300px){
+    .attraction{
+      width: 147.5px;
+      height: 98.3333px;
+    }
+  }
+  @media (min-width: 400px){
+    .attraction{
+      width: 187.5px;
+      height: 125px;
+      display: flex;
+    }
+  }
+  @media (min-width: 500px){
+    .attraction{
+      width: 245px;
+      height: 163.333px;
+      display: flex;
+    }
+  }
+  .experience-img{
+    width: 137.5px;
+    height: 91.666px;
+    overflow: hidden;
+  }
+  @media (min-width: 300px){
+    .experience-img{
+      width: 147.5px;
+      height: 98.3333px;
+    }
+  }
+  @media (min-width: 400px){
+    .experience-img{
+      width: 187.5px;
+      height: 125px;
+    }
+  }
+  @media (min-width: 500px){
+    .experience-img{
+      width: 245px;
+      height: 163.333px;
+    }
+  }
+  .attraction-link{
+    color: #fff;
+    background-image: linear-gradient(to right, rgb(139, 85, 150), rgb(192, 78, 226));
+    font-size: 12px;
+    padding: 2.5px;
+    text-decoration: none;
+    z-index: 2;
+    position: absolute;
+    margin-top: 70px;
+    font-family: 'Oswald', sans-serif;
+  }
+  @media (min-width: 400px){
+    .attraction-link{
+      font-size: 16px;
+      margin-top: 90px;
+      padding: 5px;
+    }
+  }
+  @media (min-width: 500px){
+    .attraction-link{
+      font-size: 20px;
+      margin-top: 120px;
+    }
+  }
+  @media (min-width: 600px) {
+    .attraction-link:hover {
+      font-size: 22px;
+    }
+  }
+  #odd-number-experience{
+    margin-left: 25%;
+  }
+  @media (min-width: 1250px){
+  
+    #desktop-last-row-first{
+      margin-left: 125px;
+    }
+  }
+  @media (min-width: 1100px){
+  
+    #desktop-last-row-third{
+      margin-left: 250px;
+    }
+  }
+  @media (min-width: 1250px){
+  
+    #desktop-last-row-third{
+      margin-left: 0px;
+    }
+  }
+  @media (min-width: 1100px){
+  
+    #desktop-last-row-last{
+      margin-right: 250px;
+    }
+  }
+  @media (min-width: 1250px){
+  
+    #desktop-last-row-last{
+      margin-right: 125px;
+    }
   }
 
 /* Apply Now Section */
