@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="location.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>  
 </head>
-<body>
+<body onscroll="lazyLoading()">
 
     <!-- Top Navigation Menu -->
 
@@ -149,59 +149,59 @@
       <h2 class="experiences-h2">Jack's Experiences</h2>
       <div class="experiences-container">
           <div class="attraction">
-              <a href="goKartsLexington.html"><img class="experience-img" src="jacksImages/goKartsExperience.jpeg" alt=""></a>
+              <a href="goKartsLexington.html"><img id="a" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="goKartsLexington.html">Hollywood Speedway</a>
           </div>
           <div class="attraction">
-              <a href="#"><img class="experience-img" src="jacksImages/stockWingsExperience.jpg" alt=""></a>
+              <a href="https://www.jacksbarlex.com"><img id="b" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="#">Jack's Sandbar & Grill</a>
           </div>
           <div class="attraction">
-              <a href="miniGolfLexington.html"><img class="experience-img" src="jacksImages/miniGolfExperience.jpeg" alt=""></a>
+              <a href="miniGolfLexington.html"><img id="c" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="miniGolfLexington.html">Malibu Golf</a>
           </div>
           <div class="attraction">
-              <a href="rollerCoastersLexington.html"><img class="experience-img" src="jacksImages/twistNShoutExperience.jpeg" alt=""></a>
+              <a href="rollerCoastersLexington.html"><img id="d" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="rollerCoastersLexington.html">Twist 'N Shout</a>
           </div>
           <div class="attraction">
-              <a href="arcadeLexington.html"><img class="experience-img" src="jacksImages/arcadeExperience.jpeg" alt=""></a>
+              <a href="arcadeLexington.html"><img id="e" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="arcadeLexington.html">Jack's Arcade</a>
           </div>
           <div class="attraction">
-              <a href="rollerCoastersLexington.html"><img class="experience-img" src="jacksImages/waveRiderExperience.png" alt=""></a>
+              <a href="rollerCoastersLexington.html"><img id="f" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="rollerCoastersLexington.html">Wave Rider</a>
           </div>
           <div class="attraction">
-              <a href="virtualRealityLexington.html"><img class="experience-img" src="jacksImages/hologateVRExperience.jpeg" alt=""></a>
+              <a href="virtualRealityLexington.html"><img id="g" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="virtualRealityLexington.html">Hologate Virtual Reality</a>
           </div>
           <div class="attraction">
-              <a href="laserTagLexington.html"><img class="experience-img" src="jacksImages/laserTagExperience.jpeg" alt=""></a>
+              <a href="laserTagLexington.html"><img id="h" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="laserTagLexington.html">Laser Tag</a>
           </div>
           <div class="attraction">
-              <a href="virtualRealityLexington.html"><img class="experience-img" src="jacksImages/darkRideExperience.jpeg" alt=""></a>
+              <a href="virtualRealityLexington.html"><img id="i" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="virtualRealityLexington.html">Dark Ride Theater</a>
           </div>
           <div class="attraction">
-              <a href="bounceBeachLexington.html"><img class="experience-img" src="jacksImages/bounceBeachExperience.jpeg" alt=""></a>
+              <a href="bounceBeachLexington.html"><img id="j" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="bounceBeachLexington.html">Bounce Beach</a>
           </div>
           <div class="attraction" id="desktop-last-row-first">
-              <a href="bowlingLexington.html"><img class="experience-img" src="jacksImages/bowlingExperience.jpg" alt=""></a>
+              <a href="bowlingLexington.html"><img id="k" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="bowlingLexington.html">Boardwalk Bowling</a>
           </div>
           <div class="attraction">
-              <a href="arcadeLexington.html"><img class="experience-img" src="jacksImages/shootOutExperience.jpeg" alt=""></a>
+              <a href="arcadeLexington.html"><img id="l" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="arcadeLexington.html">Shootout</a>
           </div>
           <div class="attraction" id="desktop-last-row-third">
-              <a href="virtualRealityLexington.html"><img class="experience-img" src="jacksImages/xRiderExperience.png" alt=""></a>
+              <a href="virtualRealityLexington.html"><img id="m" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="virtualRealityLexington.html">X-Rider Motion Theater</a>
           </div>
           <div class="attraction" id="desktop-last-row-last">
-              <a href="goKartsLexington.html"><img class="experience-img" src="jacksImages/spinZoneExperience.jpeg" alt=""></a>
+              <a href="goKartsLexington.html"><img id="n" class="experience-img" src="#" alt=""></a>
               <a class="attraction-link" href="goKartsLexington.html">Spin Zone</a>
           </div>          
       </div>
@@ -211,7 +211,7 @@
 
   <section class="groups-events">
       <div id="desktop-container">
-        <img class="groups-picture" src="jacksImages/groupEvents.jpg" alt="birthday party at Malibu Jack's">
+        <img class="groups-picture" id="o" src="#" alt="birthday party at Malibu Jack's">
         <div class="groups-box">
           <h2 class="groups-h2">CUSTOM EVENTS</h2>
           <p class="groups-p">
@@ -262,5 +262,5 @@
       <div class="bottom-footer-border"></div>
   </footer>
 </body>
-<script src="index.js"></script>
+<script src="location.js"></script>
 </html>

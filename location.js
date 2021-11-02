@@ -262,3 +262,55 @@ function showSlides2() {
   slides[slideIndex2 - 1].style.display = "block";
   setTimeout(showSlides2, 6000); // Change image every 6 seconds
 }
+
+/* Lazy loading */
+
+function lazyLoading() {
+    console.log("function works");
+
+  var a = document.getElementById("a");
+  a.src = "jacksImages/goKartsExperience.jpeg";
+
+  var b = document.getElementById("b");
+  b.src = "jacksImages/stockWingsExperience.jpg";
+
+  var c = document.getElementById("c");
+  c.src = "jacksImages/miniGolfExperience.jpeg";
+
+  var d = document.getElementById("d");
+  d.src = "jacksImages/twistNShoutExperience.jpeg";
+
+  var e = document.getElementById("e");
+  e.src = "jacksImages/arcadeExperience.jpeg";
+
+  var f = document.getElementById("f");
+  f.src = "jacksImages/waveRiderExperience.png";
+
+  var g = document.getElementById("g");
+  g.src = "jacksImages/hologateVRExperience.jpeg";
+
+  var h = document.getElementById("h");
+  h.src = "jacksImages/laserTagExperience.jpeg";
+
+  var i = document.getElementById("i");
+  i.src = "jacksImages/darkRideExperience.jpeg";
+
+  var j = document.getElementById("j");
+  j.src = "jacksImages/bounceBeachExperience.jpeg";
+
+  var k = document.getElementById("k");
+  k.src = "jacksImages/bowlingExperience.jpg";
+
+  var l = document.getElementById("l");
+  l.src = "jacksImages/shootOutExperience.jpeg";
+
+  var m = document.getElementById("m");
+  m.src = "jacksImages/xRiderExperience.png";
+
+  var n = document.getElementById("n");
+  n.src = "jacksImages/spinZoneExperience.jpeg";
+
+  var o = document.getElementById("o");
+  o.src = "jacksImages/groupEvents.jpg";
+
+}
