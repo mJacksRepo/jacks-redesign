@@ -837,29 +837,30 @@ main{
 
 /* Footer */
 
-.info{
-  margin-top: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-content: center;
-  background-color: #fff;
-  align-content: center;
-  height: 720px;
-}
-@media (min-width: 1100px){
   .info{
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
     background-color: #fff;
     align-content: center;
-    align-items: center;
-    height: 280px;
-    margin: 80px 0px 0px 0px;
+    height: auto;
+    width: 100vw;
+    margin: 30px 0px 0px 0px;
   }
-}
+  @media (min-width: 1100px){
+    .info{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      background-color: #fff;
+      align-content: center;
+      align-items: center;
+      height: 280px;
+      margin: 100px 0px 0px 0px;
+    }
+  }
 .footer-column{
   align-self: center;
 }

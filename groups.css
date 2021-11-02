@@ -965,7 +965,7 @@ main{
     align-content: center;
     height: auto;
     width: 100vw;
-    margin: 0px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
   }
   @media (min-width: 1100px){
     .info{
@@ -976,6 +976,7 @@ main{
       align-content: center;
       align-items: center;
       height: 280px;
+      margin: 100px 0px 0px 0px;
     }
   }
   .footer-column{
