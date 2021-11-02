@@ -1,23 +1,3 @@
-/*
-
-Known bugs:
-
-1. following opening a submenu and closing the menu without closing the 
-submenu upon opening the menu again the submenu will be closed but the arrow will be
-rotated as if the submenu is open
-
-Fixed but the arrow sits 5-10px too low
-Look at changes made to styling when arrow is flipped
-
-2. closing menu and then expanding to desktop width leaves display as none
-fixed
-
-3. Using the hover script messes up the dropdown in mobile menu
-
-4. Using mobile and then going back to desktop width drops desktop menu to bottom of 
-container div for submenu
-
-*/
 
 /* Mobile Navbar */
 
@@ -206,8 +186,6 @@ function myFunction() {
     }
   }
 
-/* Unlimited Price Estimation */
-
 /* Arcade Add On */
 
 var size = "0";
@@ -232,53 +210,53 @@ function rateCalc() {
   var result = document.getElementById('unlimited-rate-estimate-result');
     
     if (size == "1" && time == "1" && check == "0"){
-      result.innerHTML = "$22 / person";
+      result.innerHTML = "$22 per person";
     } else if (size == "1" && time == "1" && check == "1"){
-      result.innerHTML = "$30 / person ";
+      result.innerHTML = "$30 per person ";
     } else if (size == "1" && time == "2" && check == "0"){
-      result.innerHTML = "$26 / person";
+      result.innerHTML = "$26 per person";
     } else if (size == "1" && time == "2" && check == "1"){
-      result.innerHTML = "$34 / person";
+      result.innerHTML = "$34 per person";
     } else if (size == "1" && time == "3" && check == "0"){
-      result.innerHTML = "$29 / person";
+      result.innerHTML = "$29 per person";
     } else if (size == "1" && time == "3" && check == "1"){
-      result.innerHTML = "$37/person";
+      result.innerHTML = "$37 per person";
     } else if (size == "2" && time == "1" && check == "0"){
-      result.innerHTML = "$18/person";
+      result.innerHTML = "$18 per person";
     } else if (size == "2" && time == "1" && check == "1"){
-      result.innerHTML = "$25/person";
+      result.innerHTML = "$25 per person";
     } else if (size == "2" && time == "2" && check == "0"){
-      result.innerHTML = "$22/person";
+      result.innerHTML = "$22 per person";
     } else if (size == "2" && time == "2" && check == "1"){
-      result.innerHTML = "$29/person";
+      result.innerHTML = "$29 per person";
     } else if (size == "2" && time == "3" && check == "0"){
-      result.innerHTML = "$25/person";
+      result.innerHTML = "$25 per person";
     } else if (size == "2" && time == "3" && check == "1"){
-      result.innerHTML = "$32/person";
+      result.innerHTML = "$32 per person";
     } else if (size == "3" && time == "1" && check == "0"){
-      result.innerHTML = "$15/person";
+      result.innerHTML = "$15 per person";
     } else if (size == "3" && time == "1" && check == "1"){
-      result.innerHTML = "$21/person";
+      result.innerHTML = "$21 per person";
     } else if (size == "3" && time == "2" && check == "0"){
-      result.innerHTML = "$18/person";
+      result.innerHTML = "$18 per person";
     } else if (size == "3" && time == "2" && check == "1"){
-      result.innerHTML = "$24/person";
+      result.innerHTML = "$24 per person";
     } else if (size == "3" && time == "3" && check == "0"){
-      result.innerHTML = "$20/person";
+      result.innerHTML = "$20 per person";
     } else if (size == "3" && time == "3" && check == "1"){
-      result.innerHTML = "$26/person";
+      result.innerHTML = "$26 per person";
     } else if (size == "4" && time == "1" && check == "0"){
-      result.innerHTML = "$13/person";
+      result.innerHTML = "$13 per person";
     } else if (size == "4" && time == "1" && check == "1"){
-      result.innerHTML = "$17/person";
+      result.innerHTML = "$17 per person";
     } else if (size == "4" && time == "2" && check == "0"){
-      result.innerHTML = "$16/person";
+      result.innerHTML = "$16 per person";
     } else if (size == "4" && time == "2" && check == "1"){
-      result.innerHTML = "$20/person";
+      result.innerHTML = "$20 per person";
     } else if (size == "4" && time == "3" && check == "0"){
-      result.innerHTML = "$18/person";
+      result.innerHTML = "$18 per person";
     } else if (size == "4" && time == "3" && check == "1"){
-      result.innerHTML = "$22/person";
+      result.innerHTML = "$22 per person";
     }
 }
 
