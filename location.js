@@ -266,7 +266,6 @@ function showSlides2() {
 /* Lazy loading */
 
 function lazyLoading() {
-    console.log("function works");
 
   var a = document.getElementById("a");
   a.src = "jacksImages/goKartsExperience.jpeg";
