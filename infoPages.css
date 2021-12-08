@@ -481,7 +481,7 @@ body {
       width: 500px;
     }
   }
-  .attraction-p{
+  .attraction-p, .attraction-highlight-p{
     text-align: left;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
@@ -490,23 +490,17 @@ body {
     width: 70%;
   }
   @media (min-width: 400px){
-      .attraction-p{
+      .attraction-p, .attraction-highlight-p{
         font-size: 20px
       }
   }
   @media (min-width: 600px){
-      .attraction-p{
+      .attraction-p, .attraction-highlight-p{
         width: 500px;
       }
   }
   .attraction-highlight-p{
       color: rgb(32, 26, 58);
-      text-align: left;
-      font-family: 'Oswald', sans-serif;
-      font-size: 18px;
-      padding: 0px 10px 0px 20px; 
-      margin: 5px 0px 5px 0px;
-      width: 100%;
   }
   @media (min-width: 400px){
       .attraction-highlight-p{
