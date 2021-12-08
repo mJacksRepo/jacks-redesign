@@ -185,6 +185,23 @@ function myFunction() {
       y.style.alignSelf = "flex-end";
     }
   }
+  /*Slides*/
+  
+  var slideIndex1 = 0;
+  showSlides1();
+  
+  function showSlides1() {
+      var i;
+      var slides = document.getElementsByClassName("slideshow-container");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      slideIndex1++;
+      if (slideIndex1 > slides.length) { slideIndex1 = 1 }
+      slides[slideIndex1 - 1].style.display = "block";
+      setTimeout(showSlides1, 4500); // Change image every 4.5 seconds
+  }
 
 /* Arcade Add On */
 
