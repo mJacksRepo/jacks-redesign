@@ -15,18 +15,18 @@ function myFunction() {
     var y = document.getElementById("navbar-toggle");
     var z = document.getElementById("topNav");
 
-    var a = document.getElementById("subAttractionsItems");
+    /*var a = document.getElementById("subAttractionsItems");
     var b = document.getElementById("subGroupsItems");
-    var c = document.getElementById("subRestaurantItems");
+    var c = document.getElementById("subRestaurantItems");*/
     var d = document.getElementById("subContactUsItems");
     var e = document.getElementById("subHoursAndInfoItems");
     var f = document.getElementById("subLocationsItems");
     
-    var g = document.getElementById("attractions-toggle");
+    /*var g = document.getElementById("attractions-toggle");
     var h = document.getElementById("groups-toggle");
-    var i = document.getElementById("restaurant-toggle");
+    var i = document.getElementById("restaurant-toggle");*/
     var j = document.getElementById("contact-toggle");
-    var k = document.getElementById("hours-and-info-toggle");
+    /*var k = document.getElementById("hours-and-info-toggle");*/
     var l = document.getElementById("locations-toggle");
 
     if (x.style.display === "flex" && currentWidth < desktopWidth){
@@ -36,9 +36,9 @@ function myFunction() {
       y.style.height = "60px";
       y.style.padding = "0px 0px 0px 0px";
       z.style.padding = "0px 0px 5px 0px";
-      a.style.display = "none";
-      b.style.display = "none";
-      c.style.display = "none";
+      //a.style.display = "none";
+      //b.style.display = "none";
+      //c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";
       f.style.display = "none";
@@ -53,29 +53,29 @@ function myFunction() {
       y.style.margin = "0px 0px 0px -32.5px";
       y.style.padding = "10px 0px 0px 0px";
       z.style.padding = "0px 0px 0px 0px";
-      a.style.display = "none";
-      b.style.display = "none";
-      c.style.display = "none";
+      //a.style.display = "none";
+      //b.style.display = "none";
+      //c.style.display = "none";
       d.style.display = "none";
       e.style.display = "none";
       f.style.display = "none";
-      g.style.transform = "rotate(0deg)";
-      g.style.height = "30px";
-      h.style.transform = "rotate(0deg)";
-      h.style.height = "30px";
-      i.style.transform = "rotate(0deg)";
-      i.style.height = "30px";
+      //g.style.transform = "rotate(0deg)";
+      //g.style.height = "30px";
+      //h.style.transform = "rotate(0deg)";
+      //h.style.height = "30px";
+      //i.style.transform = "rotate(0deg)";
+      //i.style.height = "30px";
       j.style.transform = "rotate(0deg)";
       j.style.height = "30px";
-      k.style.transform = "rotate(0deg)";
-      k.style.height = "30px";
+      //k.style.transform = "rotate(0deg)";
+      //k.style.height = "30px";
       l.style.transform = "rotate(0deg)";
       l.style.height = "30px";
     }
     
   }
 
-  function attractionsSubMenuFunction() {
+  /*function attractionsSubMenuFunction() {
 
     var currentWidth = window.innerWidth;
     var desktopWidth = 1000;
@@ -94,9 +94,9 @@ function myFunction() {
       y.style.transform = "rotate(180deg)";
       y.style.alignSelf = "flex-end";
     }
-  }
+  }*/
 
-  function groupsSubMenuFunction() {
+  /*function groupsSubMenuFunction() {
 
     var currentWidth = window.innerWidth;
     var desktopWidth = 1000;
@@ -114,9 +114,9 @@ function myFunction() {
       y.style.transform = "rotate(180deg)";
       y.style.alignSelf = "flex-end";
     }
-  }
+  }*/
 
-  function restaurantSubMenuFunction() {
+  /*function restaurantSubMenuFunction() {
 
     var currentWidth = window.innerWidth;
     var desktopWidth = 1000;
@@ -134,7 +134,7 @@ function myFunction() {
       y.style.transform = "rotate(180deg)";
       y.style.alignSelf = "flex-end";
     }
-  }
+  }*/
 
   function contactUsSubMenuFunction() {
 
