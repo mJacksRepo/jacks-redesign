@@ -6,65 +6,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Malibu Jack's | Ashland Birthdays, Experiences, & Groups</title>
-    <link rel="stylesheet" href="announcedLocation.css">
+    <link rel="stylesheet" href="location.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>  
 </head>
-<body>
+<body onscroll="lazyLoading()">
 
     <!-- Top Navigation Menu -->
 
     <div class="topnav" id="topNav">
-      <a href="lexington.html" class="active"><img id="logo" class="header-logo" src="jacksImages/logoSmall.webp" alt=""></a>
+      <a href="ashland.html" class="active"><img id="logo" class="header-logo" src="jacksImages/logoSmall.webp" alt=""></a>
       <div id="myLinks">
         <div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="attractionsSubMenuFunction()">ATTRACTIONS<a id="attractions-toggle" class="toggle-container" href="javascript:void(0);" onclick="attractionsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subAttractionsItems">
-                <a class="dropdown2" href="arcadeLexington.html">JACK'S ARCADE</a>
-                <a class="dropdown2" href="bowlingLexington.html">BOWLING</a>
-                <a class="dropdown2" href="goKartsLexington.html">GO KARTS</a>
-                <a class="dropdown2" href="laserTagLexington.html">LASER TAG</a>
-                <a class="dropdown2" href="bounceBeachLexington.html">BOUNCE BEACH</a>
-                <a class="dropdown2" href="miniGolfLexington.html">MINI GOLF</a>
-                <a class="dropdown2" href="virtualRealityLexington.html">VR EXPERIENCES</a>
-                <a class="dropdown2" href="rollerCoastersLexington.html">ROLLER COASTERS</a>
+                <a class="dropdown2" href="arcadeAshland.html">JACK'S ARCADE</a>
+                <a class="dropdown2" href="bowlingAshland.html">BOWLING</a>
+                <a class="dropdown2" href="goKartsAshland.html">GO KARTS</a>
+                <a class="dropdown2" href="laserTagAshland.html">LASER TAG</a>
+                <a class="dropdown2" href="bounceBeachAshland.html">BOUNCE BEACH</a>
+                <a class="dropdown2" href="miniGolfAshland.html">MINI GOLF</a>
+                <a class="dropdown2" href="virtualRealityAshland.html">VR EXPERIENCES</a>
+                <a class="dropdown2" href="rollerCoastersAshland.html">ROLLER COASTERS</a>
             </div>
         </div>
         <div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="groupsSubMenuFunction()">GROUPS <a id="groups-toggle" class="toggle-container" href="javascript:void(0);" onclick="groupsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subGroupsItems">
-                <a class="dropdown2" href="birthdaysLexington.html">BIRTHDAYS</a>
-                <a class="dropdown2" href="groupsLexington.html">GROUP PACKAGES</a>
-                <a class="dropdown2" href="fieldTripsLexington.html">FIELD TRIPS</a>
+                <a class="dropdown2" href="birthdaysAshland.html">BIRTHDAYS</a>
+                <a class="dropdown2" href="groupsAshland.html">GROUP PACKAGES</a>
+                <a class="dropdown2" href="fieldTripsAshland.html">FIELD TRIPS</a>
             </div>
         </div>
-        <div class="desktop-nav-hover">
+        <!--<div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="restaurantSubMenuFunction()">RESTAURANT <a id="restaurant-toggle" class="toggle-container" href="javascript:void(0);" onclick="restaurantSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subRestaurantItems">
                 <a class="dropdown2" href="https://www.jacksbarlex.com">JACK'S SANDBAR & GRILL</a>
                 <a class="dropdown2" href="https://1312a595-1615-b3fd-bb6a-1385233a542d.filesusr.com/ugd/85218b_7c50766142014cf5b1e9974c4b4b1246.pdf">GRILL MENU</a>
                 <a class="dropdown2" href="https://1312a595-1615-b3fd-bb6a-1385233a542d.filesusr.com/ugd/85218b_185a1b8d275444beaba59d66f1fe92e3.pdf">BAR MENU</a>
             </div>
-        </div>
+        </div>-->
         <div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="contactUsSubMenuFunction()">ACCOUNT<a id="contact-toggle" class="toggle-container" href="javascript:void(0);" onclick="contactUsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subContactUsItems">
-              <a class="dropdown2" href="#">LOG IN</a>
               <a class="dropdown2" href="https://malibujacks.centeredgeonline.com/card">CHECK BALANCE</a>
+              <!--<a class="dropdown2" href="https://malibujacks.centeredgeonline.com/card">CHECK BALANCE</a>-->
             </div>
         </div>
         <div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="hoursAndInfoSubMenuFunction()">HOURS & INFO <a id="hours-and-info-toggle" class="toggle-container" href="javascript:void(0);" onclick="hoursAndInfoSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subHoursAndInfoItems">
               <a class="dropdown2" href="#copyright" onclick="myFunction()">HOURS</a>
-              <a class="dropdown2" href="https://www.google.com/maps/place/Malibu+Jack's+Lexington/@37.999124,-84.5179904,15z/data=!4m5!3m4!1s0x0:0x2130a9739ddbc0a6!8m2!3d37.999124!4d-84.5179904">DIRECTIONS</a>
-              <a class="dropdown2" href="moreInfoLexington.html">PARK INFO</a>
+              <a class="dropdown2" href="https://www.google.com/maps/place/Malibu+Jack's+Ashland/@37.999124,-84.5179904,15z/data=!4m5!3m4!1s0x0:0x2130a9739ddbc0a6!8m2!3d37.999124!4d-84.5179904">DIRECTIONS</a>
+              <a class="dropdown2" href="moreInfoAshland.html">PARK INFO</a>
               <a class="dropdown2" href="#copyright" onclick="myFunction()">CONTACT INFO</a>
-              <a class="dropdown2" href="contactUsLexington.html">SEND A MESSAGE</a>
+              <a class="dropdown2" href="contactUsAshland.html">SEND A MESSAGE</a>
             </div>
         </div>
         <div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="locationsSubMenuFunction()">LOCATIONS <a id="locations-toggle" class="toggle-container"  href="javascript:void(0);" onclick="locationsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subLocationsItems">
-              <a class="dropdown2" href="lexington.html">LEXINGTON</a>
+              <a class="dropdown2" href="lexington.html".html">LEXINGTON</a>
               <a class="dropdown2" href="louisville.html">LOUISVILLE</a>
               <a class="dropdown2" href="ashland.html">ASHLAND</a>
             </div>
@@ -75,146 +76,187 @@
         <img id="navbar-toggle" src="jacksImages/white-menu-icon.jpg" alt="">
       </a>
       <div id="desktop-location">
-        <a href="lexington.html"><img id="desktop-location-img" src="jacksImages/locationIcon.png" alt="">
+        <a href="ashland.html"><img id="desktop-location-img" src="jacksImages/locationIcon.png" alt="">
         <h2 id="desktop-navbar-h2">ASHLAND</h2></a>
       </div>
     </div>
 
     <!-- Opening Picture -->
 
-    <main>
-        <img class="main-picture" src="jacksImages/banner-cut.jpeg"
-            alt="background jacks picture">
-        <img class="slogan" src="jacksImages/eatBowlRacePlay.png">
-        <div class="main-border"></div>
-    </main>
-    
-    <!-- Construction Section -->
+  <main>
+    <img class="main-picture" src="jacksImages/banner-cut.jpeg"
+        alt="background jacks picture">
+    <img class="slogan" src="jacksImages/eatBowlRacePlay.png">
+    <div class="main-border"></div>
+</main>
 
-    <section class="construction">
-        <h2 class="announced-location-h2">FUN is on the way!</h2>
-        <p class="announced-location-p">
-            Malibu Jack's is building it's newest and largest facility in Ashland, KY! There is family fun for everyone at 
-            Malibu Jack's. Attractions include: go karts, bowling, indoor coasters, miniature golf, laser tag, motion 
-            theaters, virtual reality, arcade games, and more! There is space for birthdays, large group events, corporate 
-            gatherings and more!
-        </p>
-        <p class="announced-location-p">
-            Malibu Jack's is excited to join the Eastern Kentucky community and serve the tri-state area!
-        </p>
-        <div class="button">
-            <a class="button-a" href="https://www.wsaz.com/2021/07/16/major-development-plan-aims-bring-new-life-former-mall-site/">SEE US ON THE NEWS!</a>
-        </div>
-    </section>
+<!-- Deals Banner -->
 
-    <!-- Experiences Section -->
+<section class="deals">
+    <a id="deals-link" href="index.html">
+      <h2 id="deals-h2">COMING SOON!</h2>
+    </a>
+</section>
 
-  <section class="experiences">
+<!-- Birthdays Section -->
+
+<section class="birthdays">
+    <div class="birthdays-container">
+        <img class="birthday-picture" src="jacksImages/birthdayparty1.jpeg"
+            alt="birthday party at Malibu Jack's">      
+            <div class="birthday-box-container">
+                <div class="birthday-box">
+                    <h2 class="birthday-h2">Birthday Parties</h2>
+                    <p class="birthday-p">
+                        Make memories that will last forever at your next Malibu Jack's birthday party!
+                        Rent a cabana or build a party package. Reserve your space today!
+                    </p>
+                    <div class="birthday-links-container">
+                        <div class="birthday-button">
+                            <a class="birthday-a" href="birthdaysAshland.html">BOOK NOW</a>
+                        </div>
+                        <div class="birthday-button">
+                            <a class="birthday-a" href="birthdaysAshland.html">LEARN MORE</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    <div class="birthdays-container">
+          <img class="birthday-picture" src="jacksImages/birthday2.png" alt="birthday party at Malibu Jack's">            
+          <div class="birthday-box-container">
+              <div class="birthday-box">
+                  <h2 class="birthday-h2">Birthday Parties</h2>
+                  <p class="birthday-p">
+                      Make memories that will last forever at your next Malibu Jack's birthday party!
+                      Rent a cabana or build a party package. Reserve your space today!
+                  </p>
+                  <div class="birthday-links-container">
+                      <div class="birthday-button">
+                          <a class="birthday-a" href="birthdaysAshland.html">BOOK NOW</a>
+                      </div>
+                      <div class="birthday-button">
+                          <a class="birthday-a" href="birthdaysAshland.html">LEARN MORE</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
+    </div>
+</section>
+
+<!-- Experiences Section -->
+
+<section class="experiences">
     <h2 class="experiences-h2">Jack's Experiences</h2>
     <div class="experiences-container">
         <div class="attraction">
-            <a href="goKartsLexington.html"><img class="experience-img" src="jacksImages/goKartsExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="goKartsLexington.html">Hollywood Speedway</a>
+            <a href="goKartsAshland.html"><img id="a" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="goKartsAshland.html">Hollywood Speedway</a>
         </div>
         <div class="attraction">
-            <a href="#"><img class="experience-img" src="jacksImages/stockWingsExperience.jpg" alt=""></a>
-            <a class="attraction-link" href="#">Jack's Sandbar & Grill</a>
+            <a href="https://www.jacksbarlex.com"><img id="b" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="https://www.jacksbarlex.com">Party Spaces</a>
         </div>
         <div class="attraction">
-            <a href="miniGolfLexington.html"><img class="experience-img" src="jacksImages/miniGolfExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="miniGolfLexington.html">Malibu Golf</a>
+            <a href="miniGolfAshland.html"><img id="c" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="miniGolfAshland.html">Malibu Golf</a>
         </div>
         <div class="attraction">
-            <a href="rollerCoastersLexington.html"><img class="experience-img" src="jacksImages/twistNShoutExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="rollerCoastersLexington.html">Twist 'N Shout</a>
+            <a href="rollerCoastersAshland.html"><img id="d" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="rollerCoastersAshland.html">Twist 'N Shout</a>
         </div>
         <div class="attraction">
-            <a href="arcadeLexington.html"><img class="experience-img" src="jacksImages/arcadeExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="arcadeLexington.html">Jack's Arcade</a>
+            <a href="arcadeAshland.html"><img id="e" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="arcadeAshland.html">Jack's Arcade</a>
         </div>
         <div class="attraction">
-            <a href="rollerCoastersLexington.html"><img class="experience-img" src="jacksImages/waveRiderExperience.png" alt=""></a>
-            <a class="attraction-link" href="rollerCoastersLexington.html">Wave Rider</a>
+            <a href="rollerCoastersAshland.html"><img id="f" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="rollerCoastersAshland.html">Wave Rider</a>
         </div>
         <div class="attraction">
-            <a href="virtualRealityLexington.html"><img class="experience-img" src="jacksImages/hologateVRExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="virtualRealityLexington.html">Hologate Virtual Reality</a>
+            <a href="virtualRealityAshland.html"><img id="g" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="virtualRealityAshland.html">Hologate Virtual Reality</a>
         </div>
         <div class="attraction">
-            <a href="laserTagLexington.html"><img class="experience-img" src="jacksImages/laserTagExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="laserTagLexington.html">Laser Tag</a>
+            <a href="laserTagAshland.html"><img id="h" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="laserTagAshland.html">Laser Tag</a>
         </div>
         <div class="attraction">
-            <a href="virtualRealityLexington.html"><img class="experience-img" src="jacksImages/darkRideExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="virtualRealityLexington.html">Dark Ride Theater</a>
+            <a href="virtualRealityAshland.html"><img id="i" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="virtualRealityAshland.html">Dark Ride Theater</a>
         </div>
         <div class="attraction">
-            <a href="bounceBeachLexington.html"><img class="experience-img" src="jacksImages/bounceBeachExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="bounceBeachLexington.html">Bounce Beach</a>
+            <a href="bounceBeachAshland.html"><img id="j" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="bounceBeachAshland.html">Bounce Beach</a>
         </div>
         <div class="attraction" id="desktop-last-row-first">
-            <a href="bowlingLexington.html"><img class="experience-img" src="jacksImages/bowlingExperience.jpg" alt=""></a>
-            <a class="attraction-link" href="bowlingLexington.html">Boardwalk Bowling</a>
+            <a href="bowlingAshland.html"><img id="k" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="bowlingAshland.html">Boardwalk Bowling</a>
         </div>
         <div class="attraction">
-            <a href="arcadeLexington.html"><img class="experience-img" src="jacksImages/shootOutExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="arcadeLexington.html">Shootout</a>
+            <a href="arcadeAshland.html"><img id="l" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="arcadeAshland.html">Shootout</a>
         </div>
         <div class="attraction" id="desktop-last-row-third">
-            <a href="virtualRealityLexington.html"><img class="experience-img" src="jacksImages/xRiderExperience.png" alt=""></a>
-            <a class="attraction-link" href="virtualRealityLexington.html">X-Rider Motion Theater</a>
+            <a href="virtualRealityAshland.html"><img id="m" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="virtualRealityAshland.html">X-Rider Motion Theater</a>
         </div>
         <div class="attraction" id="desktop-last-row-last">
-            <a href="goKartsLexington.html"><img class="experience-img" src="jacksImages/spinZoneExperience.jpeg" alt=""></a>
-            <a class="attraction-link" href="goKartsLexington.html">Spin Zone</a>
+            <a href="goKartsAshland.html"><img id="n" class="experience-img" src="#" alt=""></a>
+            <a class="attraction-link" href="goKartsAshland.html">Spin Zone</a>
         </div>          
     </div>
-  </section>
+</section>
 
-    <!-- Apply Now Section -->
+<!-- Group events section -->
 
-    <section class="apply-now">
-        <h2 class="announced-location-h2">Apply Now!</h2>
-        <p class="announced-location-p">
-            Malibu Jack's is <span class="p-highlight">NOW HIRING </span>in Ashland, KY. Click one of the buttons below to apply for one of our open positions. 
-            Thanks for your interest in working at Malibu Jack's!
+<section class="groups-events">
+    <div id="desktop-container">
+      <img class="groups-picture" id="o" src="#" alt="birthday party at Malibu Jack's">
+      <div class="groups-box">
+        <h2 class="groups-h2">CUSTOM EVENTS</h2>
+        <p class="groups-p">
+            From small birthday parties to your entire school or company, there is a package that will keep your group 
+            entertained! Speak to someone at Malibu Jack's today!
         </p>
-        <div class="button">
-            <a class="button-a" href="https://malibujacks.applytojob.com/apply">SEE OPEN JOBS!</a>
+        <div class="groups-buttons-container">
+            <div class="groups-button">
+                <a class="groups-a" href="groupsAshland.html">BOOK NOW</a>
+            </div>
+            <div class="groups-button">
+                <a class="groups-a" href="groupsAshland.html">LEARN MORE</a>
+            </div>
         </div>
-    </section>
+     </div>
+    </div>
+</section>
 
-    <!-- Footer -->
+<!-- Footer -->
   
     <footer class="info">
         <div class="footer-border"></div>
         <div class="footer-column">
-            <h4 class="footer-h4">Lexington Hours</h4>
-            <p class="footer-p">Mon to Thurs - 11am to 10pm</p>
-            <p class="footer-p">Fri and Sat - 11am to 11pm</p>
-            <p class="footer-p">Sun - Noon to 10pm</p>
+            <h4 class="footer-h4">Ashland Hours</h4>
+            <p class="footer-p">TBD</p>
         </div>
         <div class="footer-column">
             <h4 class="footer-h4">Directions</h4>
-            <a href="#" class="footer-a">2520 Nicholasville Rd</a><br>
-            <a href="#" class="footer-a">Lexington, KY 40503</a>
+            <a href="https://www.google.com/maps/search/kyova+mall/" class="footer-a">10699 US-60 W</a><br>
+            <a href="https://www.google.com/maps/search/kyova+mall/" class="footer-a">Ashland, KY 41102</a>
         </div>
         <div class="footer-column">
             <h4 class="footer-h4">Contact Us</h4>
-            <p class="footer-p">(859) 687-0401</p>
-            <p class="footer-p">Lexington@mailbujacks.net</p>
-            <a class="footer-a" href="https://www.malibujacks.net/lexington-jobs">Employment</a><br><br>
-            <a class="footer-a" href="#">Code of Conduct</a>
+            <a class="footer-a" href="contactUsAshland.html">Ashland@mailbujacks.net</a><br><br>
+            <a class="footer-a" href="https://malibujacks.applytojob.com/apply">Employment</a><br><br>
+            <a class="footer-a" href="codeOfConductAshland.html">Code of Conduct</a>
         </div>
         <div class="footer-column">
-            <a href="https://www.malibujacks.net/lexington"><img id="footer-logo" src="jacksImages/logoSmall.webp" alt="Malibu Jack's Logo"></a><br>
-            <div class="social-media-icons-container">
-                <a href="#"><img id="facebook-icon" src="jacksImages/facebook.webp" alt=""></a><a href="#"><img id="instagram-icon" src="jacksImages/instagram.webp" alt=""></a>
-            </div> 
-            <a id="copyright" href="#">&copy Malibu Jack's 2021</a>           
+            <a href="https://www.malibujacks.net/ashland"><img id="footer-logo" src="jacksImages/logoSmall.webp" alt="Malibu Jack's Logo"></a><br><br>
+            <a href="https://www.facebook.com/MalibuJacksAshland/"><img id="facebook-icon" src="jacksImages/facebook.webp" alt=""></a><!--<a href="#"><img id="instagram-icon" src="jacksImages/instagram.webp" alt=""></a>--><br><br>
+            <a id="copyright" href="websitePrivacyPolicy.html">&copy Malibu Jack's 2021</a>           
         </div>
         <div class="bottom-footer-border"></div>
     </footer>
   </body>
-  <script src="index.js"></script>
+  <script src="locationAshland.js"></script>
   </html>
