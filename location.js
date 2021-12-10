@@ -247,7 +247,7 @@ function showSlides1() {
     setTimeout(showSlides1, 3000); // Change image every 3 seconds
 }
 
-var slideIndex2 = 0;
+/*var slideIndex2 = 0;
 showSlides2();
 
 function showSlides2() {
@@ -261,7 +261,7 @@ function showSlides2() {
   if (slideIndex2 > slides.length) { slideIndex2 = 1 }
   slides[slideIndex2 - 1].style.display = "block";
   setTimeout(showSlides2, 6000); // Change image every 6 seconds
-}
+}*/
 
 /* Lazy loading */
 
