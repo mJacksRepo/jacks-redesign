@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Malibu Jack's | Ashland Birthdays, Experiences, & Groups</title>
-    <link rel="stylesheet" href="location.css">
+    <title>Malibu Jack's | Ashland Groups</title>
+    <link rel="stylesheet" href="groups.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>  
 </head>
 <body>
@@ -79,7 +79,138 @@
         <a href="ashland.html"><img id="desktop-location-img" src="jacksImages/locationIcon.png" alt="">
         <h2 id="desktop-navbar-h2">ASHLAND</h2></a>
       </div>
-    </div><!-- Footer -->
+    </div>
+
+    <!-- Slideshow -->
+  
+      <section class="slideshow">
+          <div class="slideshow-container">
+              <img class="slideshow-picture" src="jacksImages/vr1.jpeg" alt="">
+          </div>
+          <div class="slideshow-container">
+              <img class="slideshow-picture" src="jacksImages/rollerCoaster1.png" alt="">
+          </div>
+          <div class="slideshow-container">
+              <img class="slideshow-picture" src="jacksImages/laserTag.jpeg" alt="">
+          </div>
+      </section>
+  
+    <!-- Group Rates -->
+  
+    <section class="group-rates">
+        <p class="group-p">
+            Customize your own event! Available for groups of 15 or more.
+        </p>
+        <h2 id="group-rates-h2">Group Rates</h2>
+        <div class="group-package">
+            <span class="group-span">$12 per person</span>
+            <p class="group-p">
+                <span class="group-span-2">1 Attraction Ticket:</span> One round of Go Karts, Laser Tag, Malibu Golf, X Rider, 
+                Dark Ride, Wave Rider, Spin Zone, Twist N Shout or Bounce Beach.
+            </p>
+            <p class="group-p">
+                <span class="group-span-2">$8 Malibu Bucks</span> Used to play games and attractions.
+            </p>
+            <span class="group-span">$17 per person</span>
+            <p class="group-p">1 Attraction Ticket</p>
+            <p class="group-p">+ $16 Malibu Bucks</p>
+            <span class="group-span">$22 per person</span>
+            <p class="group-p">1 Attraction Ticket</p>
+            <p class="group-p">+ $24 Malibu Bucks</p>
+        </div>
+        <div id="group-button">
+            <a class="group-a" href="smallGroupsContactAshland.html">BOOK NOW</a>
+        </div>
+    </section>
+  
+    <!-- Unlimited Rates -->
+  
+    <section class="unlimited">
+        <h2 id="unlimited-h2">Unlimited Rates</h2>
+        <div id="unlimited-container">
+            <p class="unlimited-p">
+                For larger groups of 50+ guests we now offer unlimited attraction rates. This tool can help you design your 
+                custom Malibu Jack's group package that gives your group great value at a great price. Fill out the form below and 
+                select book now to get in contact with your Ashland booking manager. You can also add unlimited arcade for your 
+                group and dedicated cabana space for your group to relax in. Select your group size, how long you would like to 
+                stay, and any add ons to begin booking your custom group package.
+            </p>
+            <div id="unlimited-group-size-container">
+                <div class="unlimited-group-size-button" id="size-50-99"  onclick="rateCalc5099()">
+                    <p class="unlimited-button-p">50-99</p>
+                </div>
+                <div class="unlimited-group-size-button" id="size-100-199" onclick="rateCalc100199()">
+                    <p class="unlimited-button-p">100-199</p>
+                </div>
+                <div class="unlimited-group-size-button" id="size-200-399" onclick="rateCalc200399()">
+                    <p class="unlimited-button-p">200-399</p>
+                </div>
+                <div class="unlimited-group-size-button" id="size-400" onclick="rateCalc400()">
+                    <p class="unlimited-button-p">400+</p>
+                </div>
+            </div>
+            <div id="unlimited-cost-estimate">
+                <div id="unlimited-rate-estimate-container">
+                    <p class="rate-estimate-p" id="unlimited-rate-estimate-result">$0</p>
+                    <div id="rate-estimate-space"></div>
+                    <p class="rate-estimate-p" id="unlimited-cabana-add-on"></p>
+                </div>
+            </div>
+            <div id="unlimited-time-container">
+                <div class="unlimited-time-button selected" id="hours-2" onclick="rateCalc2()">
+                    <p class="unlimited-button-p">2 hours</p>
+                </div>
+                <div class="unlimited-time-button" id="hours-3" onclick="rateCalc3()">
+                    <p class="unlimited-button-p">3 hours</p>
+                </div>
+                <div class="unlimited-time-button" id="hours-4" onclick="rateCalc4()">
+                    <p class="unlimited-button-p">4 hours</p>
+                </div>
+            </div>
+            <label id="unlimited-arcade">Add Unlimited Arcade
+                <input type="checkbox" id="arcade-checkbox" name="arcade-check" onclick="arcadeCheck()">
+                <span class="checkmark"></span>
+            </label>
+            <div id="unlimited-cabana">
+                <p class="cabana-p">Add Cabanas: </p>
+                <div id="minus-cabana" class="cabana-div">
+                    <p class="cabana-p" id="off-p" onclick="subtractCabana()">
+                        -
+                    </p>
+                </div>
+                <div id="cabana-count-div">
+                    <p class="cabana-p" id="cabana-count">0</p>
+                </div>
+                <div id="plus-cabana" class="cabana-div">
+                    <p class="cabana-p"id="off-p" onclick="addCabana()">
+                        +
+                    </p>
+                </div>
+            </div>
+            <div id="submit-button">
+                <a href="largeGroupContactAshland.html" id="submit-a" class="other-groups-a">BOOK NOW</a>
+            </div>
+        </div>
+    </section>
+  
+    <!-- Other Group Bookings -->
+  
+    <section id="other-groups">
+        <h2 id="other-groups-h2">More Options</h2>
+        <div id="other-groups-buttons-container">
+          <div class="other-groups-button">
+              <a class="other-groups-a" href="fieldTripsAshland.html">FIELD TRIPS</a>
+          </div>
+          <div class="other-groups-button">
+              <a class="other-groups-a" href="lockInAshland.html">LOCK INS</a>
+          </div>
+          <div class="other-groups-button">
+              <a class="other-groups-a" href="fundraisingAshland.html">FUNDRAISING</a>
+          </div>          
+        </div>
+    </section>
+  
+    <!-- Footer -->
   
 <footer class="info">
     <div class="footer-border"></div>
@@ -106,5 +237,5 @@
     <div class="bottom-footer-border"></div>
 </footer>
 </body>
-<script src="locationAshland.js"></script>
+<script src="groupsAshland.js"></script>
 </html>
