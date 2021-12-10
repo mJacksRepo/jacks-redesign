@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malibu Jack's | Ashland Code of Conduct</title>
+    <link rel="stylesheet" href="infoPages.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon"/>  
+</head>
+<body>
+
+    <!-- Top Navigation Menu -->
+
+    <div class="topnav" id="topNav">
+      <a href="ashland.html" class="active"><img id="logo" class="header-logo" src="jacksImages/logoSmall.webp" alt=""></a>
+      <div id="myLinks">
+        <div class="desktop-nav-hover">
+            <a class="dropdown1" href="javascript:void(0);" onclick="attractionsSubMenuFunction()">EXPERIENCES<a id="attractions-toggle" class="toggle-container" href="javascript:void(0);" onclick="attractionsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
+            <div class="sub-menu" id="subAttractionsItems">
+                <a class="dropdown2" href="arcadeAshland.html">JACK'S ARCADE</a>
+                <a class="dropdown2" href="bowlingAshland.html">BOWLING</a>
+                <a class="dropdown2" href="goKartsAshland.html">GO KARTS</a>
+                <a class="dropdown2" href="laserTagAshland.html">LASER TAG</a>
+                <a class="dropdown2" href="bounceBeachAshland.html">BOUNCE BEACH</a>
+                <a class="dropdown2" href="miniGolfAshland.html">MINI GOLF</a>
+                <a class="dropdown2" href="virtualRealityAshland.html">VR EXPERIENCES</a>
+                <a class="dropdown2" href="rollerCoastersAshland.html">ROLLER COASTERS</a>
+            </div>
+        </div>
+        <div class="desktop-nav-hover">
+            <a class="dropdown1" href="javascript:void(0);" onclick="groupsSubMenuFunction()">GROUPS <a id="groups-toggle" class="toggle-container" href="javascript:void(0);" onclick="groupsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
+            <div class="sub-menu" id="subGroupsItems">
+                <a class="dropdown2" href="birthdaysAshland.html">BIRTHDAYS</a>
+                <a class="dropdown2" href="groupsAshland.html">GROUP PACKAGES</a>
+                <a class="dropdown2" href="fieldTripsAshland.html">FIELD TRIPS</a>
+            </div>
+        </div>
+        <!--<div class="desktop-nav-hover">
+            <a class="dropdown1" href="javascript:void(0);" onclick="restaurantSubMenuFunction()">RESTAURANT <a id="restaurant-toggle" class="toggle-container" href="javascript:void(0);" onclick="restaurantSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
+            <div class="sub-menu" id="subRestaurantItems">
+                <a class="dropdown2" href="https://www.jacksbarlex.com">JACK'S SANDBAR & GRILL</a>
+                <a class="dropdown2" href="https://1312a595-1615-b3fd-bb6a-1385233a542d.filesusr.com/ugd/85218b_7c50766142014cf5b1e9974c4b4b1246.pdf">GRILL MENU</a>
+                <a class="dropdown2" href="https://1312a595-1615-b3fd-bb6a-1385233a542d.filesusr.com/ugd/85218b_185a1b8d275444beaba59d66f1fe92e3.pdf">BAR MENU</a>
+            </div>
+        </div>-->
+        <div class="desktop-nav-hover">
+            <a class="dropdown1" href="javascript:void(0);" onclick="contactUsSubMenuFunction()">ACCOUNT<a id="contact-toggle" class="toggle-container" href="javascript:void(0);" onclick="contactUsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
+            <div class="sub-menu" id="subContactUsItems">
+              <a class="dropdown2" href="https://malibujacks.centeredgeonline.com/card">CHECK BALANCE</a>
+              <!--<a class="dropdown2" href="https://malibujacks.centeredgeonline.com/card">CHECK BALANCE</a>-->
+            </div>
+        </div>
+        <div class="desktop-nav-hover">
+            <a class="dropdown1" href="javascript:void(0);" onclick="hoursAndInfoSubMenuFunction()">HOURS & INFO <a id="hours-and-info-toggle" class="toggle-container" href="javascript:void(0);" onclick="hoursAndInfoSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
+            <div class="sub-menu" id="subHoursAndInfoItems">
+              <a class="dropdown2" href="#copyright" onclick="myFunction()">HOURS</a>
+              <a class="dropdown2" href="https://www.google.com/maps/place/Malibu+Jack's+Ashland/@37.999124,-84.5179904,15z/data=!4m5!3m4!1s0x0:0x2130a9739ddbc0a6!8m2!3d37.999124!4d-84.5179904">DIRECTIONS</a>
+              <a class="dropdown2" href="moreInfoAshland.html">PARK INFO</a>
+              <a class="dropdown2" href="#copyright" onclick="myFunction()">CONTACT INFO</a>
+              <a class="dropdown2" href="contactUsAshland.html">SEND A MESSAGE</a>
+            </div>
+        </div>
+        <div class="desktop-nav-hover">
+            <a class="dropdown1" href="javascript:void(0);" onclick="locationsSubMenuFunction()">LOCATIONS <a id="locations-toggle" class="toggle-container"  href="javascript:void(0);" onclick="locationsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
+            <div class="sub-menu" id="subLocationsItems">
+              <a class="dropdown2" href="lexington.html">LEXINGTON</a>
+              <a class="dropdown2" href="louisville.html">LOUISVILLE</a>
+              <a class="dropdown2" href="ashland.html">ASHLAND</a>
+            </div>
+        </div>
+        <a class="dropdown1" id="deals" href="index.html">VIP DEALS</a>
+      </div>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <img id="navbar-toggle" src="jacksImages/white-menu-icon.jpg" alt="">
+      </a>
+      <div id="desktop-location">
+        <a href="ashland.html"><img id="desktop-location-img" src="jacksImages/locationIcon.png" alt="">
+        <h2 id="desktop-navbar-h2">ASHLAND</h2></a>
+      </div>
+    </div>
+
+    <!-- Attractions -->
+
+    <section class="attractions-info">
+        <h2 id="attractions-h2">Code of Conduct</h2>
+        <div class="attraction-div">
+            <p class="attraction-p">
+                Malibu Jack’s visitors age 17 and under are required to be accompanied by a parent or guardian age 21 
+                or older during all business hours. Proof of age may be required. 
+            </p>
+            <p class="attraction-highlight-p">
+                One parent age 21 or older may escort all of their children. Additionally, one parent or guardian age 21 
+                or older may escort up to 3 youths, age 17 or under. At least one youth must be the child of the parent 
+                or guardian.
+            </p>
+            <p class="attraction-p">
+                Parents or guardians are responsible for the actions of the escorted youth. If an escorted youth is banned 
+                from the facility, the adult escort will also be banned for the same period. 
+            </p>
+            <p class="attraction-highlight-p">
+                No “walk-in parties” allowed at any time. Parties must be booked and confirmed with Malibu Jack’s ahead 
+                of time.
+            </p>
+            <p class="attraction-p">
+                No smoking on the premises, including vaping and e-cigs. No tobacco use on the premises including pipes, 
+                cigars, chewing tobacco or snuff.
+            </p>
+            <p class="attraction-highlight-p">
+                Loitering on the premises or adjacent parking area is strictly prohibited.
+            </p>
+            <p class="attraction-p">
+                No outside food or drinks permitted.
+            </p>
+            <p class="attraction-highlight-p">
+                Clean and appropriate attire is required. No hats, clothing, jewelry or visible tattoos with offensive 
+                language or imagery. 
+            </p>
+            <p class="attraction-p">
+                We do NOT allow clothing which exposes underwear or excessive portions of the skin, which may be viewed 
+                as inappropriate in a family environment.
+           </p>
+            <p class="attraction-highlight-p">
+                No firearms allowed except by “on duty” law enforcement officers.
+            </p>
+            <p class="attraction-p">
+                Abusive or profane language, physical altercations, or aggressive behavior will not be tolerated.
+            </p>
+            <p class="attraction-highlight-p">                    
+                Individuals in violation of any of these rules, that refuse to leave the facility when requested by                     
+                management, may be prosecuted for trespassing. 
+            </p>
+            <p class="attraction-p" id="last-p">
+                Malibu Jack’s reserves the right to update or modify these policies at any time.
+            </p>
+        </div>
+    </section>
+
+    <!-- Return Links -->
+
+    <section class="pricing">
+        <div class="pricing-button">
+            <a class="pricing-a" href="ashland.html">BACK TO HOME</a>
+        </div>
+        <div class="pricing-button">
+            <a class="pricing-a" href="moreInfoAshland.html">BACK TO INFO</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+  
+<footer class="info">
+    <div class="footer-border"></div>
+    <div class="footer-column">
+        <h4 class="footer-h4">Ashland Hours</h4>
+        <p class="footer-p">TBD</p>
+    </div>
+    <div class="footer-column">
+        <h4 class="footer-h4">Directions</h4>
+        <a href="https://www.google.com/maps/search/kyova+mall/" class="footer-a">10699 US-60 W</a><br>
+        <a href="https://www.google.com/maps/search/kyova+mall/" class="footer-a">Ashland, KY 41102</a>
+    </div>
+    <div class="footer-column">
+        <h4 class="footer-h4">Contact Us</h4>
+        <a class="footer-a" href="contactUsAshland.html">Ashland@mailbujacks.net</a><br><br>
+        <a class="footer-a" href="https://malibujacks.applytojob.com/apply">Employment</a><br><br>
+        <a class="footer-a" href="codeOfConductAshland.html">Code of Conduct</a>
+    </div>
+    <div class="footer-column">
+        <a href="https://www.malibujacks.net/ashland"><img id="footer-logo" src="jacksImages/logoSmall.webp" alt="Malibu Jack's Logo"></a><br><br>
+        <a href="https://www.facebook.com/MalibuJacksAshland/"><img id="facebook-icon" src="jacksImages/facebook.webp" alt=""></a><!--<a href="#"><img id="instagram-icon" src="jacksImages/instagram.webp" alt=""></a>--><br><br>
+        <a id="copyright" href="websitePrivacyPolicy.html">&copy Malibu Jack's 2021</a>           
+    </div>
+    <div class="bottom-footer-border"></div>
+</footer>
+</body>
+<script src="standardAshland.js"></script>
+</html>
