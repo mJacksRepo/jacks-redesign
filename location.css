@@ -302,7 +302,6 @@ main{
   align-content: center;
   align-items: center;  
   overflow: hidden;
-  background-color: #000;
 }
 @media (min-width: 450px){
   main{
