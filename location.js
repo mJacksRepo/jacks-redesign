@@ -272,13 +272,13 @@ function lazyBannerVector() {
 
   var banner = document.getElementById("banner");
   var body = document.getElementById("body");
+  var birthday2 = document.getElementById("birthday2");
 
-  if (currentWidth < tabletWidth) {
-    banner.src = "jacksImages/banner-cut-mobile.jpeg";
-  } else {
+  if (currentWidth > tabletWidth) {
     banner.src = "jacksImages/banner-cut.jpeg";
   }
 
+  birthday2.src = "jacksImages/birthday2.png";
   body.style.backgroundImage = "url('jacksImages/whiteVector.jpg')";
 }
 
