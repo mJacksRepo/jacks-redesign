@@ -325,7 +325,7 @@ main{
 }
 @media (min-width: 1250px){
   main{
-    height: 880px;
+    height: 800px;
   }
 }
 .main-picture{
@@ -432,7 +432,7 @@ main{
 }
 @media (min-width: 1300px) {
   .slogan {
-    margin: 150px 0px 0px 500px;
+    margin: 150px 0px 0px 450px;
   }
 }
 .fun-is-awesome{
