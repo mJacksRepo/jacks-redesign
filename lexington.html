@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="location.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>  
 </head>
-<body onscroll="lazyLoading()">
+<body onload="lazyBannerVector()" onscroll="lazyLoading()" id="body">
 
     <!-- Top Navigation Menu -->
 
@@ -83,7 +83,7 @@
   <!-- Opening Picture -->
 
   <main>
-      <img class="main-picture" src="jacksImages/banner-cut.jpeg"
+      <img class="main-picture" id="banner" src="#"
           alt="background jacks picture">
       <img class="slogan" src="jacksImages/eatBowlRacePlay.png">
       <div class="main-border"></div>

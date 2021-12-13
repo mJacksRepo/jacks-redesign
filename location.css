@@ -14,7 +14,7 @@ body {
     overflow-x: hidden;
     font-size: 62.5%;
     font-family: 'Oswald', sans-serif;
-    background-image: url("jacksImages/whiteVector.jpg");
+    /*background-image: url("jacksImages/whiteVector.jpg");*/
     z-index: -2;
   }
   .topnav {
