@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
 
 
 html, body{
@@ -415,21 +416,21 @@ body {
   }
 }
 #group-rates-h2{
-  font-family: 'Permanent Marker', sans-serif;
-  color: rgb(42, 51, 177);
-  font-size: 34px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: rgb(17, 19, 48);
+  font-size: 38px;
   margin: 10px 0px 0px 0px;
   width: 100vw;
   text-align: center;
 }
 @media (min-width: 350px){
   #group-rates-h2{
-    font-size: 40px;
+    font-size: 44px;
   }
 }
 @media (min-width: 600px){
   #group-rates-h2{
-    font-size: 50px;
+    font-size: 54px;
     margin: 30px 0px 20px 0px;
   }
 }
@@ -444,7 +445,7 @@ body {
   width: 100vw;
 }
 .group-span{
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Permanent Marker', sans-serif;
   font-size: 22px;
   color: rgb(189, 23, 204);
   margin-top: 10px;
@@ -509,19 +510,19 @@ body {
   width: 100vw;
 }
 #unlimited-h2{
-  font-family: 'Permanent Marker', sans-serif;
-  color: rgb(42, 51, 177);
-  font-size: 34px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: rgb(17, 19, 48);
+  font-size: 38px;
   margin: 10px 0px 0px 0px;
 }
 @media (min-width: 350px){
   #unlimited-h2{
-    font-size: 40px;
+    font-size: 44px;
   }
 }
 @media (min-width: 600px){
   #unlimited-h2{
-    font-size: 50px;
+    font-size: 54px;
     margin: 80px 0px 0px 0px;
   }
 }
@@ -843,19 +844,19 @@ body {
   }
 }
 #other-groups-h2{
-  font-family: 'Permanent Marker', sans-serif;
-  color: rgb(42, 51, 177);
-  font-size: 34px;
+  font-family: 'Saira Extra Condensed', sans-serif;
+  color: rgb(17, 19, 48);
+  font-size: 38px;
   margin: 10px 0px 0px 0px;
 }
 @media (min-width: 350px){
   #other-groups-h2{
-    font-size: 40px;
+    font-size: 44px;
   }
 }
 @media (min-width: 600px){
   #other-groups-h2{
-    font-size: 50px;
+    font-size: 54px;
   }
 }
 #other-groups-buttons-container{
