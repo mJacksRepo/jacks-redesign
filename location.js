@@ -274,7 +274,7 @@ function lazyBannerVector() {
   var body = document.getElementById("body");
   var birthday2 = document.getElementById("birthday2");
 
-  if (currentWidth > tabletWidth) {
+  if (currentWidth >= tabletWidth) {
     banner.src = "jacksImages/banner-cut.jpeg";
   }
 
