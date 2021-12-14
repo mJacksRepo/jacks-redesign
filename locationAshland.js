@@ -265,6 +265,23 @@ function showSlides2() {
 
 /* Lazy loading */
 
+function lazyBannerVector() {
+
+  var currentWidth = window.innerWidth;
+  var tabletWidth = 500;
+
+  var banner = document.getElementById("banner");
+  var body = document.getElementById("body");
+  var birthday2 = document.getElementById("birthday2");
+
+  if (currentWidth >= tabletWidth) {
+    banner.src = "jacksImages/banner-cut.jpeg";
+  }
+
+  birthday2.src = "jacksImages/birthday2.png";
+  body.style.backgroundImage = "url('jacksImages/whiteVector.jpg')";
+}
+
 function lazyLoading() {
 
   var a = document.getElementById("a");

@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="location.css">
     <link rel="icon" href="favicon.ico" type="image/x-icon"/>  
 </head>
-<body onscroll="lazyLoading()">
+<body onload="lazyBannerVector()" onscroll="lazyLoading()" id="body">
 
     <!-- Top Navigation Menu -->
 
@@ -84,11 +84,11 @@
     <!-- Opening Picture -->
 
   <main>
-    <img class="main-picture" src="jacksImages/banner-cut.jpeg"
+    <img class="main-picture" id="banner" src="jacksImages/banner-cut-mobile.jpeg"
         alt="background jacks picture">
     <img class="slogan" src="jacksImages/eatBowlRacePlay.png">
     <div class="main-border"></div>
-</main>
+  </main>
 
 <!-- Deals Banner -->
 
@@ -123,7 +123,7 @@
             </div>
     </div>
     <div class="birthdays-container">
-          <img class="birthday-picture" src="jacksImages/birthday2.png" alt="birthday party at Malibu Jack's">            
+        <img class="birthday-picture" id="birthday2" src="#" alt="birthday party at Malibu Jack's">          
           <div class="birthday-box-container">
               <div class="birthday-box">
                   <h2 class="birthday-h2">Birthday Parties</h2>
