@@ -253,3 +253,29 @@ function fullSailPackage(){
   x.className = "package-div-displayed";
   y.className = "package-div-hidden";
 }
+
+/* Blogs */
+
+function plusSlides(n) {
+
+  console.log("function");
+
+  var blog1 = document.getElementById("blog1");
+  var blog2 = document.getElementById("blog2");
+  var blog3 = document.getElementById("blog3");
+
+  if (n == 1) {
+    if (blog1.className == "blog-container-shown") {
+      blog1.className = "blog-container";
+      blog2.className = "blog-container-shown";
+    } else if (blog2.className == "blog-container-shown") {
+      blog2.className = "blog-container";
+      blog3.className = "blog-container-shown";
+    } else if (blog3.className == "blog-container-shown") {
+      blog3.className = "blog-container";
+      blog1.className = "blog-container-shown";}
+  }
+
+  if (n == -1) {}
+
+}

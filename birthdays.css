@@ -435,7 +435,7 @@ body {
 }
 .package-button-container{
     margin: 20px 0px 0px 0px;
-    width: 285px;
+    width: 280px;
     height: 60px;
     display: flex;
     justify-content: space-between;
@@ -661,6 +661,86 @@ body {
   }
 }
 
+/* Blogs */
+
+.blogs {
+  margin: 30px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  height: auto;
+  width: 100%;
+}
+
+.blog-h2 {
+  font-family: 'Permanent Marker', sans-serif;    
+  font-size: 28px;
+  color: rgb(95, 37, 191);
+  margin: 10px 0px 0px 0px;
+  width: 100%;
+  text-align: center;
+}
+
+.blog-container {
+  display: none;
+}
+
+.blog-container-shown {
+  width: 80%;
+  height: auto;
+}
+
+.blog-pic {
+  width: 100%;
+  height: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  width: auto;
+  padding: 16px;
+  color: rgb(115.5,37,191);
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0px 0px 3px;
+}
+
+.to-article {
+  text-decoration: underline;
+  color: rgb(115.5,37,191);
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
 /* Footer */
 
   .info{
@@ -670,7 +750,6 @@ body {
     text-align: center;
     align-content: center;
     background-color: #fff;
-    align-content: center;
     height: auto;
     width: 100vw;
     margin: 30px 0px 0px 0px;
