@@ -276,10 +276,13 @@ function lazyBannerVector() {
 
   if (currentWidth >= tabletWidth) {
     banner.src = "jacksImages/banner-cut.jpeg";
+    birthday2.src = "jacksImages/birthday2.png";
+    body.style.backgroundImage = "url('jacksImages/whiteVector.jpg')";
+  } else {
+    birthday2.src = "jacksImages/birthday2.png";
+    body.style.backgroundImage = "url('jacksImages/whiteVector-mobile.jpg')";
   }
-
-  birthday2.src = "jacksImages/birthday2.png";
-  body.style.backgroundImage = "url('jacksImages/whiteVector.jpg')";
+  
 }
 
 function lazyLoading() {
