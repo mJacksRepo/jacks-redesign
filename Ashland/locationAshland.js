@@ -275,12 +275,12 @@ function lazyBannerVector() {
   var birthday2 = document.getElementById("birthday2");
 
   if (currentWidth >= tabletWidth) {
-    banner.src = "jacksImages/banner-cut.jpeg";
-    birthday2.src = "jacksImages/birthday2.png";
-    body.style.backgroundImage = "url('jacksImages/whiteVector.jpg')";
+    banner.src = "../jacksImages/banner-cut.jpeg";
+    birthday2.src = "../jacksImages/birthday2.png";
+    body.style.backgroundImage = "url('../jacksImages/whiteVector.jpg')";
   } else {
-    birthday2.src = "jacksImages/birthday2.png";
-    body.style.backgroundImage = "url('jacksImages/whiteVector-mobile.jpg')";
+    birthday2.src = "../jacksImages/birthday2.png";
+    body.style.backgroundImage = "url('../jacksImages/whiteVector-mobile.jpg')";
   }
   
 }
@@ -288,48 +288,48 @@ function lazyBannerVector() {
 function lazyLoading() {
 
   var a = document.getElementById("a");
-  a.src = "jacksImages/goKartsExperience.jpeg";
+  a.src = "../jacksImages/goKartsExperience.jpeg";
 
   var b = document.getElementById("b");
-  b.src = "jacksImages/partySpaceExperience.webp";
+  b.src = "../jacksImages/partySpaceExperience.webp";
 
   var c = document.getElementById("c");
-  c.src = "jacksImages/miniGolfExperience.jpeg";
+  c.src = "../jacksImages/miniGolfExperience.jpeg";
 
   var d = document.getElementById("d");
-  d.src = "jacksImages/twistNShoutExperience.jpeg";
+  d.src = "../jacksImages/twistNShoutExperience.jpeg";
 
   var e = document.getElementById("e");
-  e.src = "jacksImages/arcadeExperience.jpeg";
+  e.src = "../jacksImages/arcadeExperience.jpeg";
 
   var f = document.getElementById("f");
-  f.src = "jacksImages/waveRiderExperience.png";
+  f.src = "../jacksImages/waveRiderExperience.png";
 
   var g = document.getElementById("g");
-  g.src = "jacksImages/hologateVRExperience.jpeg";
+  g.src = "../jacksImages/hologateVRExperience.jpeg";
 
   var h = document.getElementById("h");
-  h.src = "jacksImages/laserTagExperience.jpeg";
+  h.src = "../jacksImages/laserTagExperience.jpeg";
 
   var i = document.getElementById("i");
-  i.src = "jacksImages/darkRideExperience.jpeg";
+  i.src = "../jacksImages/darkRideExperience.jpeg";
 
   var j = document.getElementById("j");
-  j.src = "jacksImages/bounceBeachExperience.jpeg";
+  j.src = "../jacksImages/bounceBeachExperience.jpeg";
 
   var k = document.getElementById("k");
-  k.src = "jacksImages/bowlingExperience.jpg";
+  k.src = "../jacksImages/bowlingExperience.jpg";
 
   var l = document.getElementById("l");
-  l.src = "jacksImages/shootOutExperience.jpeg";
+  l.src = "../jacksImages/shootOutExperience.jpeg";
 
   var m = document.getElementById("m");
-  m.src = "jacksImages/xRiderExperience.png";
+  m.src = "../jacksImages/xRiderExperience.png";
 
   var n = document.getElementById("n");
-  n.src = "jacksImages/spinZoneExperience.jpeg";
+  n.src = "../jacksImages/spinZoneExperience.jpeg";
 
   var o = document.getElementById("o");
-  o.src = "jacksImages/groupEvents.jpg";
+  o.src = "../jacksImages/groupEvents.jpg";
 
 }
