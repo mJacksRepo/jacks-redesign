@@ -1,3 +1,9 @@
+/*
+
+Created by Taylor Barron
+
+*/
+
 /* Mobile Navbar */
 
 function myFunction() {
@@ -25,7 +31,7 @@ function myFunction() {
 
     if (x.style.display === "flex" && currentWidth < desktopWidth){
       x.style.display = "none";
-      y.src = "jacksImages/white-menu-icon.jpg";
+      y.src = "../jacksImages/white-menu-icon.jpg";
       y.style.margin = "-10px -10px 0px 0px";
       y.style.height = "60px";
       y.style.padding = "0px 0px 0px 0px";
@@ -42,7 +48,7 @@ function myFunction() {
       x.style.justifyContent = "space-between";
       x.style.alignItems = "center";
       x.style.padding = "0px 0px 0px 0px";
-      y.src = "jacksImages/white-x.png";
+      y.src = "../jacksImages/white-x.png";
       y.style.height = "25px";
       y.style.margin = "0px 0px 0px -32.5px";
       y.style.padding = "10px 0px 0px 0px";
@@ -190,52 +196,140 @@ function myFunction() {
     }
   }
 
-  /*Header scroll*/
-  /*
-  window.onscroll = function() {scrollFunction()};
-  
-  function scrollFunction() {
-    var x = window.innerWidth;
-    var y = 899.9;
-    if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 && x > y)  {
-      document.getElementById("topNav").className = "scrolled-topnav";
-      document.getElementById("logo").className = "scrolled-logo";
-    } else {
-      document.getElementById("topNav").className = "topnav";
-      document.getElementById("logo").className = "header-logo";
+/* Location Select */
+
+  function locationSelect(location) {
+
+    var x = document.getElementById("go-button");
+    var option = location.value;
+
+    if (option === 'Ashland') {
+      x.href = "ashland.html";
+    } else if (option === 'Lexington') {
+      x.href = "lexington.html";
+    } else if (option === 'Louisville') {
+      x.href = "louisville.html";
     }
   }
-  */
-  /*Slides*/
-  
-  var slideIndex1 = 0;
-  showSlides1();
-  
-  function showSlides1() {
-      var i;
-      var slides = document.getElementsByClassName("slideshow-container");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      slideIndex1++;
-      if (slideIndex1 > slides.length) { slideIndex1 = 1 }
-      slides[slideIndex1 - 1].style.display = "block";
-      setTimeout(showSlides1, 4500); // Change image every 4.5 seconds
+
+/*Header scroll*/
+/*
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  var x = window.innerWidth;
+  var y = 899.9;
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 && x > y)  {
+    document.getElementById("topNav").className = "scrolled-topnav";
+    document.getElementById("logo").className = "scrolled-logo";
+  } else {
+    document.getElementById("topNav").className = "topnav";
+    document.getElementById("logo").className = "header-logo";
   }
-  
-  /*
-  var slideIndex2 = 0;
-  showSlides2();
-  
-  function showSlides2() {
+}
+*/
+
+/*Slides*/
+
+var slideIndex1 = 0;
+showSlides1();
+
+function showSlides1() {
     var i;
-    var slides = document.getElementsByClassName("groups-container");
+    var slides = document.getElementsByClassName("birthdays-container");
     var dots = document.getElementsByClassName("dot");
     for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
     }
-    slideIndex2++;
-    if (slideIndex2 > slides.length) { slideIndex2 = 1 }
-    slides[slideIndex2 - 1].style.display = "block";
-    setTimeout(showSlides2, 6000);} /* Change image every 6 seconds*/
+    slideIndex1++;
+    if (slideIndex1 > slides.length) { slideIndex1 = 1 }
+    slides[slideIndex1 - 1].style.display = "block";
+    setTimeout(showSlides1, 3000); // Change image every 3 seconds
+}
+
+/*var slideIndex2 = 0;
+showSlides2();
+
+function showSlides2() {
+  var i;
+  var slides = document.getElementsByClassName("groups-container");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  slideIndex2++;
+  if (slideIndex2 > slides.length) { slideIndex2 = 1 }
+  slides[slideIndex2 - 1].style.display = "block";
+  setTimeout(showSlides2, 6000); // Change image every 6 seconds
+}*/
+
+/* Lazy loading */
+
+function lazyBannerVector() {
+
+  var currentWidth = window.innerWidth;
+  var tabletWidth = 500;
+
+  var banner = document.getElementById("banner");
+  var body = document.getElementById("body");
+  var birthday2 = document.getElementById("birthday2");
+
+  if (currentWidth >= tabletWidth) {
+    banner.src = "jacksImages/banner-cut.jpeg";
+    birthday2.src = "jacksImages/birthday2.png";
+    body.style.backgroundImage = "url('jacksImages/whiteVector.jpg')";
+  } else {
+    birthday2.src = "jacksImages/birthday2.png";
+    body.style.backgroundImage = "url('jacksImages/whiteVector-mobile.jpg')";
+  }
+  
+}
+
+function lazyLoading() {
+
+  var a = document.getElementById("a");
+  a.src = "jacksImages/goKartsExperience.jpeg";
+
+  var b = document.getElementById("b");
+  b.src = "jacksImages/partySpaceExperience.webp";
+
+  var c = document.getElementById("c");
+  c.src = "jacksImages/miniGolfExperience.jpeg";
+
+  var d = document.getElementById("d");
+  d.src = "jacksImages/twistNShoutExperience.jpeg";
+
+  var e = document.getElementById("e");
+  e.src = "jacksImages/arcadeExperience.jpeg";
+
+  var f = document.getElementById("f");
+  f.src = "jacksImages/waveRiderExperience.png";
+
+  var g = document.getElementById("g");
+  g.src = "jacksImages/hologateVRExperience.jpeg";
+
+  var h = document.getElementById("h");
+  h.src = "jacksImages/laserTagExperience.jpeg";
+
+  var i = document.getElementById("i");
+  i.src = "jacksImages/darkRideExperience.jpeg";
+
+  var j = document.getElementById("j");
+  j.src = "jacksImages/bounceBeachExperience.jpeg";
+
+  var k = document.getElementById("k");
+  k.src = "jacksImages/bowlingExperience.jpg";
+
+  var l = document.getElementById("l");
+  l.src = "jacksImages/shootOutExperience.jpeg";
+
+  var m = document.getElementById("m");
+  m.src = "jacksImages/xRiderExperience.png";
+
+  var n = document.getElementById("n");
+  n.src = "jacksImages/spinZoneExperience.jpeg";
+
+  var o = document.getElementById("o");
+  o.src = "jacksImages/groupEvents.jpg";
+
+}
