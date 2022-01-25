@@ -31,7 +31,7 @@ function myFunction() {
 
     if (x.style.display === "flex" && currentWidth < desktopWidth){
       x.style.display = "none";
-      y.src = "jacksImages/white-menu-icon.jpg";
+      y.src = "../jacksImages/white-menu-icon.jpg";
       y.style.margin = "-10px -10px 0px 0px";
       y.style.height = "60px";
       y.style.padding = "0px 0px 0px 0px";
@@ -48,7 +48,7 @@ function myFunction() {
       x.style.justifyContent = "space-between";
       x.style.alignItems = "center";
       x.style.padding = "0px 0px 0px 0px";
-      y.src = "jacksImages/white-x.png";
+      y.src = "../jacksImages/white-x.png";
       y.style.height = "25px";
       y.style.margin = "0px 0px 0px -32.5px";
       y.style.padding = "10px 0px 0px 0px";
@@ -196,7 +196,7 @@ function myFunction() {
     }
   }
 
-/* Location Select */
+/* Location Select 
 
   function locationSelect(location) {
 
@@ -210,7 +210,7 @@ function myFunction() {
     } else if (option === 'Louisville') {
       x.href = "louisville.html";
     }
-  }
+  }*/
 
 /*Header scroll*/
 /*
