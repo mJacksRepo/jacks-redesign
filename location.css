@@ -437,6 +437,8 @@ main{
   width: 70px;
   height: 130px;
   flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
   text-align: center;
   margin-top: 250px;
   margin-left: 200px;
@@ -481,6 +483,9 @@ main{
     margin: 60px 50px 0px 0px;
     font-size: 4.25em;
   }
+}
+#banner-hyperlink {
+  text-decoration: underline;
 }
 
 /* Deals Banner */
