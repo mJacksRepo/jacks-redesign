@@ -239,7 +239,7 @@ function funPackage(){
   b.className = "package-button-unselected";
   c.href = "#";
 
-  x.className = "package-div-displayed";
+  x.className = "package-div-displayed-fun";
   y.className = "package-div-hidden";
 }
 
@@ -255,6 +255,6 @@ function fullSailPackage(){
   b.className = "package-button-unselected";
   c.href = "#";
 
-  x.className = "package-div-displayed";
+  x.className = "package-div-displayed-full-sail";
   y.className = "package-div-hidden";
 }

@@ -548,8 +548,36 @@ body {
     align-items: center;
     background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(189, 23, 204));
 }
+.package-div-displayed-fun{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(95, 37, 191));
+}
+.package-div-displayed-full-sail{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(95, 37, 191), rgb(189,23,204));
+}
 @media (min-width: 600px){
   .package-div-displayed{
+    width: 480px;
+    margin: 40px 0px 0px 0px
+  }
+  .package-div-displayed-fun{
+    width: 480px;
+    margin: 40px 0px 0px 0px
+  }
+  .package-div-displayed-full-sail{
     width: 480px;
     margin: 40px 0px 0px 0px
   }
