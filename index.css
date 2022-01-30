@@ -15,7 +15,7 @@ body {
     overflow-x: hidden;
     font-size: 62.5%;
     font-family: 'Oswald', sans-serif;
-    background-color: #000;
+    background-image: url("jacksImages/whiteVector.jpg");
     z-index: -2;
   }
   .topnav {
@@ -657,7 +657,7 @@ body {
   }
   .weekday-deals-h4{
     font-family: 'Saira Extra Condensed', sans-serif;
-    color: rgb(231, 228, 10);
+    color: rgb(221, 134, 21);
     font-size: 30px;
     margin: 2.5px;   
   }
@@ -668,13 +668,14 @@ body {
   }
   .weekday-deals-p{
       font-family: 'Oswald', sans-serif;
-      color: #fff;
-      font-size: 22px;
-      margin: 2.5px;   
+      color: #000;
+      font-size: 16px;
+      margin: 2.5px;  
+      width: 60%; 
   }
   @media (min-width: 500px){
     .weekday-deals-p{
-      font-size: 24px;
+      font-size: 18px;
     }
   }
 
@@ -727,43 +728,44 @@ body {
   }
   .every-day-p{
       font-style: "Oswald", sans-serif;
-      font-size: 20px;
-      color: rgb(231, 228, 10);
+      font-size: 16px;
+      color: rgb(12, 2, 48);
       margin: 0px;
+      line-height: 175%;
   }
   @media (min-width: 300px){
     .every-day-p{
-      font-size: 24px;
+      font-size: 18px;
     }
   }
   @media (min-width: 500px){
     .every-day-p{
-      font-size: 26px;
+      font-size: 18px;
     }
   }
   #deal20{
-    color: #fff;
+    color: rgb(31, 101, 233);
   }
   #deal40{
-    color: #fff;
+    color: rgb(31, 101, 233);
   }
   #deal50{
-    color: #fff;
+    color: rgb(31, 101, 233);
   }
   #deal100{
-    color: #fff;
+    color: rgb(31, 101, 233);
   }
   #deal2{
-    color: #fff;
+    color: rgb(31, 101, 233);
   }
   #deal6{
-    color: #fff;
+    color: rgb(31, 101, 233);
   }
   #deal10{
-      color: rgb(230, 96, 34);
+      color: rgb(77, 172, 58);
   }
   #deal30{
-    color: rgb(228, 13, 13);
+    color: rgb(25, 129, 30);
   }
 
   /* Bowling Deals */
@@ -795,10 +797,11 @@ body {
   }
   .bowling-deals-p{
     font-style: "Oswald", sans-serif;
-    font-size: 20px;
-    color: #fff;
+    font-size: 16px;
+    color: #000;
     text-align: center;
     margin: 0px 10px 20px 10px;
+    line-height: 175%;
   }
   @media (min-width: 400px){
     .bowling-deals-p{
@@ -807,7 +810,7 @@ body {
   }
   @media (min-width: 500px){
     .bowling-deals-p{
-      font-size: 24px;
+      font-size: 18px;
       max-width: 450px;
     }
   }
