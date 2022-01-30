@@ -406,7 +406,8 @@ body {
   font-size: 18px;
   color: rgb(43, 39, 44);
   margin: 10px 10px 0px 10px;
-  width: 260px;
+  line-height: 175%;
+  width: 70%;
 }
 @media (min-width: 600px){
   .group-p{
@@ -540,13 +541,13 @@ body {
   font-size: 18px;
   color: rgb(43, 39, 44);
   margin: 10px 10px 0px 15px;
-  width: 260px;
+  line-height: 175%;
+  width: 70%;
 }
 @media (min-width: 600px){
   .unlimited-p{
     font-size: 24px;
     margin: 20px 10px 0px 15px;
-    width: 500px;
   }
 }
 #unlimited-group-size-container{
