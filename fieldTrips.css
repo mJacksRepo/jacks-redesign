@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
 
 
 html, body{
@@ -443,13 +444,13 @@ body {
     z-index: 2;
   }
   .packages-h2{
-    font-family: 'Permanent Marker', sans-serif;    
+    font-family: 'Saira Extra Condensed', sans-serif;    
     font-size: 36px;
     width: 100%;
     text-align: center;
     z-index: 2;
     margin: 10px 0px 0px 0px;
-    background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
+    background: -webkit-linear-gradient(rgb(12, 2, 48), rgb(27, 24, 211));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;   
   }
