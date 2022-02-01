@@ -1,6 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
 
 
 html, body{
@@ -400,6 +401,9 @@ body {
     font-size: 24px;
     color: rgb(43, 39, 44);
     margin: 10px 0px 0px 0px;
+    text-align: center;
+    width: 80%;
+    color: rgb(221, 134, 21);
 }
 @media (min-width: 500px){
   #tagline{
@@ -407,31 +411,55 @@ body {
   }
 }
 #package-h2{
-    font-family: 'Permanent Marker', sans-serif;    
-    font-size: 28px;
+    font-family: 'Saira Extra Condensed', sans-serif;    
+    font-size: 36px;
     color: rgb(95, 37, 191);
     margin: 10px 0px 0px 0px;
     width: 100%;
     text-align: center;
 }
-@media (min-width: 350px){
-    #package-h2{
-      font-size: 32px;
-    }
-}
 @media (min-width: 500px){
     #package-h2{
-      font-size: 38px;
+      font-size: 48px;
     }
 }
-.description-p{
+.info-h3 {
+  font-family: 'Saira Extra Condensed', sans-serif;
+  font-size: 30px;
+  margin: 10px 0px 0px 0px;
+  color: rgb(12, 2, 48);
+}
+.desktop-p-container {
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;  
+}
+.description-p {
   font-size: 16px;
   margin: 10px 0px 0px 0px;
+  width: 70%;
+  line-height: 175%;
 }
-@media (min-width: 350px){
+@media (min-width: 350px) {
     .description-p{
       font-size: 20px;
     }
+}
+.description-p-short {
+  font-size: 16px;
+  margin: 5px 0px 0px 0px;
+  width: 70%;
+}
+@media (min-width: 350px){
+    .description-p-short {
+      font-size: 20px;
+    }
+}
+.bold {
+  font-weight: bold;
 }
 .package-button-container{
     margin: 20px 0px 0px 0px;
@@ -535,6 +563,25 @@ body {
     margin: 5px 0px 0px 0px;
   }
 }
+.attraction-list {
+  font-family: "Oswald", sans-serif;
+  font-size: 18px;
+  color: #000;
+}
+@media (min-width: 500px){
+  .attraction-list {
+    font-size: 22px;
+    margin: 5px 0px 0px 0px;
+  }
+}
+#goodie-bags {
+  width: 259.63px;  
+}
+@media (min-width: 500px){
+  #goodie-bags {
+    width: 317.31px;  
+  }
+}
 .package-list-span{
     font-size: 20px;
 }
@@ -547,6 +594,9 @@ body {
     align-content: center;
     align-items: center;
     background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(189, 23, 204));
+}
+.subtext-div {
+  margin: 10px 0px 0px 0px;
 }
 .package-div-displayed-fun{
     margin-top: 20px;
@@ -567,6 +617,17 @@ body {
     align-content: center;
     align-items: center;
     background-image: linear-gradient(to right, rgb(95, 37, 191), rgb(189,23,204));
+}
+@media (min-width: 500px) {
+  .package-div-displayed {
+    min-width: 400px;
+  }
+  .package-div-displayed-fun {
+    min-width: 400px;
+  }
+  .package-div-displayed-full-sail {
+    min-width: 400px;
+  }
 }
 @media (min-width: 600px){
   .package-div-displayed{
@@ -641,6 +702,11 @@ body {
   .package-book-a:hover {
       font-size: 38px;
   }
+}
+.subtext {
+  font-family: 'Oswald', sans-serif;
+  font-size: 14px;
+  margin: 0px;
 }
 
 /* Birthday FAQs */
