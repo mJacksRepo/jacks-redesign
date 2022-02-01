@@ -237,7 +237,7 @@ function funPackage(){
 
   a.className = "package-button-selected";
   b.className = "package-button-unselected";
-  c.href = "#";
+  c.href = "https://malibujacksashland.centeredgeonline.com/event/description/5c7067b8-3f96-4367-b9c7-c2ae44f3d3f0";
 
   x.className = "package-div-displayed-fun";
   y.className = "package-div-hidden";
