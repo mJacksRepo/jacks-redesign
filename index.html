@@ -48,19 +48,19 @@
             <a class="dropdown1" href="javascript:void(0);" onclick="contactUsSubMenuFunction()">ACCOUNT<a id="contact-toggle" class="toggle-container" href="javascript:void(0);" onclick="contactUsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subContactUsItems">
               <!--<a class="dropdown2" href="#">LOG IN</a>-->
-              <a class="dropdown2" href="https://malibujacks.centeredgeonline.com/card">CHECK BALANCE</a>
+              <a class="dropdown2" href="#balance-section">CHECK BALANCE</a>
             </div>
         </div>
-        <div class="desktop-nav-hover">
+        <!--<div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="hoursAndInfoSubMenuFunction()">CONTACT US<a id="hours-and-info-toggle" class="toggle-container" href="javascript:void(0);" onclick="hoursAndInfoSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subHoursAndInfoItems">
-              <!--<a class="dropdown2" href="#copyright" onclick="myFunction()">HOURS</a>
+              <a class="dropdown2" href="#copyright" onclick="myFunction()">HOURS</a>
               <a class="dropdown2" href="https://www.google.com/maps/place/Malibu+Jack's+Lexington/@37.999124,-84.5179904,15z/data=!4m5!3m4!1s0x0:0x2130a9739ddbc0a6!8m2!3d37.999124!4d-84.5179904">DIRECTIONS</a>
               <a class="dropdown2" href="moreInfoLexington.html">PARK INFO</a>
-              <a class="dropdown2" href="#copyright" onclick="myFunction()">CONTACT INFO</a> -->
+              <a class="dropdown2" href="#copyright" onclick="myFunction()">CONTACT INFO</a>
               <a class="dropdown2" href="contactUsLexington.html">SEND A MESSAGE</a>
             </div>
-        </div>
+        </div>-->
         <div class="desktop-nav-hover">
             <a class="dropdown1" href="javascript:void(0);" onclick="locationsSubMenuFunction()">LOCATIONS <a id="locations-toggle" class="toggle-container"  href="javascript:void(0);" onclick="locationsSubMenuFunction()"><img class="toggle" src="jacksImages/white-arrow.png" alt=""></a></a>
             <div class="sub-menu" id="subLocationsItems">
@@ -79,7 +79,8 @@
     <!-- Location Select -->
 
     <section class="location-select">
-        <select name="location" id="location" onchange="locationSelect(this)">
+        <h2 class="every-day-h2">FIND YOUR LOCATION</h2>
+        <select name="location" class="select" id="location" onchange="locationSelect(this)">
             <option value="" disabled selected hidden>Select Location</option>
             <option value="Ashland" id="ashland">Ashland</option>
             <option value="Lexington" id="lexington">Lexington</option>
@@ -190,11 +191,31 @@
         <p class="bowling-deals-p">BOWL A GAME FOR JUST $4 WITH A $3 SHOE RENTAL MONDAY THROUGH THURSDAY</p>
     </section>
 
+    <!-- Card Balance Select -->
+
+    <section class="bowling-deals" id="balance-section">
+        <h2 class="every-day-h2">CHECK BALANCE</h2>
+        <p class="weekday-deals-p" id="balance-p">
+            SELECT LOCATION OF YOUR PLAY CARD
+        </p>
+        <select name="balance" class="select" id="balance" onchange="balanceSelect(this)">
+            <option value="" disabled selected hidden>Select Location</option>
+            <option value="Ashland" id="ashland">Ashland</option>
+            <option value="Lexington" id="lexington">Lexington</option>
+            <option value="Louisville" id="louisville">Louisville</option>
+        </select>
+        <div class="location-button">
+            <a class="location-a" id="balance-button" href="#">BALANCE</a>
+        </div>
+    </section>
+
+    
+
     <!-- Footer -->
   
     <footer class="info">
-        <!--<div class="footer-border"></div>
-        <div class="footer-column">
+        <div class="footer-border"></div>
+        <!--<div class="footer-column">
             <h4 class="footer-h4">Lexington Hours</h4>
             <p class="footer-p">Mon to Thurs - 11am to 10pm</p>
             <p class="footer-p">Fri and Sat - 11am to 11pm</p>

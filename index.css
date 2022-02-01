@@ -304,7 +304,7 @@ body {
     padding: 0px;
     flex-wrap: nowrap;
   }
-  #location {
+  .select {
     width: 180px;
     margin: 10px 5px 0px 5px;
     border-style: none;
@@ -312,7 +312,7 @@ body {
     font-size: 20px;
   }
   @media (min-width: 700px){
-    #location{
+    .select {
       font-size: 28px;
       margin: 20px 5px 0px 5px;
       width: 300px;
@@ -625,13 +625,8 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    margin: 100px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
     padding: 0px;
-  }
-  @media (min-width: 600px){
-    .weekday-deals{
-      margin: 200px 0px 0px 0px;
-    }
   }
   #weekday-deals-h2{
     font-family: 'Saira Extra Condensed', sans-serif;
@@ -682,19 +677,14 @@ body {
 /* Every Day Location Deals */
 
   .every-day-deals{
-    height: 255px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     align-content: center;
     flex-direction: column;
-    margin: 100px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
     padding: 0px;
-  }
-  @media (min-width: 600px){
-    .every-day-deals{
-      margin: 200px 0px 0px 0px;
-    }
   }
   .every-day-h2{
     font-family: 'Saira Extra Condensed', sans-serif;
@@ -776,13 +766,8 @@ body {
     align-items: center;
     align-content: center;
     flex-direction: column;
-    margin: 100px 0px 0px 0px;
+    margin: 60px 0px 0px 0px;
     padding: 0px;
-  }
-  @media (min-width: 600px){
-    .bowling-deals{
-      margin: 200px 0px 0px 0px;
-    }
   }
   #bowling-deals-h2{
     font-family: 'Saira Extra Condensed', sans-serif;
@@ -813,6 +798,15 @@ body {
       font-size: 18px;
       max-width: 450px;
     }
+  }
+
+  /* Balance Section */
+
+  #balance-section {
+    margin: 60px 0px 0px 0px;
+  }
+  #balance-p {
+    text-align: center;
   }
 
   /* Footer */

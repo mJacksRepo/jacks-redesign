@@ -19,7 +19,7 @@ function myFunction() {
     var b = document.getElementById("subGroupsItems");
     var c = document.getElementById("subRestaurantItems");*/
     var d = document.getElementById("subContactUsItems");
-    var e = document.getElementById("subHoursAndInfoItems");
+    /*var e = document.getElementById("subHoursAndInfoItems");*/
     var f = document.getElementById("subLocationsItems");
     
     /*var g = document.getElementById("attractions-toggle");
@@ -57,7 +57,7 @@ function myFunction() {
       //b.style.display = "none";
       //c.style.display = "none";
       d.style.display = "none";
-      e.style.display = "none";
+      /*e.style.display = "none";*/
       f.style.display = "none";
       //g.style.transform = "rotate(0deg)";
       //g.style.height = "30px";
@@ -156,7 +156,7 @@ function myFunction() {
     }
   }
 
-  function hoursAndInfoSubMenuFunction() {
+  /*function hoursAndInfoSubMenuFunction() {
 
     var currentWidth = window.innerWidth;
     var desktopWidth = 1000;
@@ -174,7 +174,7 @@ function myFunction() {
       y.style.transform = "rotate(180deg)";
       y.style.alignSelf = "flex-end";
     }
-  }
+  }*/
 
   function locationsSubMenuFunction() {
 
@@ -209,6 +209,22 @@ function myFunction() {
       x.href = "lexington.html";
     } else if (option === 'Louisville') {
       x.href = "louisville.html";
+    }
+  }
+
+/* Balance Select */
+
+  function balanceSelect(location) {
+
+    var x = document.getElementById("balance-button");
+    var option = location.value;
+
+    if (option === 'Ashland') {
+      x.href = "https://malibujacksashland.centeredgeonline.com/card";
+    } else if (option === 'Lexington') {
+      x.href = "https://malibujacks.centeredgeonline.com/card";
+    } else if (option === 'Louisville') {
+      x.href = "https://malibujackslouisville.centeredgeonline.com/card";
     }
   }
 
