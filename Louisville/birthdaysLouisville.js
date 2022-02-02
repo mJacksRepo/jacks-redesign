@@ -234,7 +234,7 @@ function funPackage(){
   b.className = "package-button-unselected";
   c.href = "https://malibujackslouisville.centeredgeonline.com/event/description/0f91fcb1-0c80-48c7-bda1-55d9594733bd";
 
-  x.className = "package-div-displayed";
+  x.className = "package-div-displayed-fun";
   y.className = "package-div-hidden";
 }
 
@@ -250,6 +250,6 @@ function fullSailPackage(){
   b.className = "package-button-unselected";
   c.href = "https://malibujackslouisville.centeredgeonline.com/event/description/2226efb7-0b49-4c43-bfc8-18c53672f223";
 
-  x.className = "package-div-displayed";
+  x.className = "package-div-displayed-full-sail";
   y.className = "package-div-hidden";
 }
