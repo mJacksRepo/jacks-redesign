@@ -414,7 +414,7 @@ body {
     font-family: 'Saira Extra Condensed', sans-serif;    
     font-size: 36px;
     color: rgb(95, 37, 191);
-    margin: 10px 0px 0px 0px;
+    margin: 20px 0px 0px 0px;
     width: 100%;
     text-align: center;
 }
@@ -428,6 +428,9 @@ body {
   font-size: 30px;
   margin: 10px 0px 0px 0px;
   color: rgb(12, 2, 48);
+}
+#go-kart-restrictions {
+  margin: 30px 0px 0px 0px;
 }
 .desktop-p-container {
   max-width: 1200px;
@@ -720,7 +723,7 @@ body {
     align-content: center;
     align-items: center;
 }
-#birthday-faq-box{
+.birthday-faq-box{
     margin: 20px 0px 10px 0px;
     height: 60px;
     width: 150px;
@@ -732,11 +735,14 @@ body {
     background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(189, 23, 204));
 }
 @media (min-width: 500px){
-  #birthday-faq-box{
+  .birthday-faq-box{
     height: 80px;
     width: 180px;
     margin: 30px 0px 30px 0px;
   }
+}
+#rack-card {
+  margin: 10px 0px 0px 0px;
 }
 .birthday-faq-a{
     text-decoration: none;
