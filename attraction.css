@@ -500,7 +500,7 @@ body {
       justify-content: center;
       align-items: center;
       align-content: center;
-      margin-top: 20px;
+      margin: 10px 0px 0px 0px;
   }
   @media (min-width: 600px){
       .more-info{
@@ -515,13 +515,16 @@ body {
       justify-content: center;
       align-items: center;
       align-content: center;
-      background-image: linear-gradient(to right, rgb(87, 2, 104), rgb(187, 108, 211));
+      background-color: rgb(60, 23, 196);
       border-radius: 2px;
   }
   @media (min-width: 600px){
       .more-info-button{
           width: 250px;
       }
+  }
+  #requirements-button {
+    background-image: linear-gradient(to right, rgb(87, 2, 104), rgb(187, 108, 211))
   }
   .more-info-a{
       font-size: 28px;
@@ -536,6 +539,17 @@ body {
           font-size: 36px;
       }
   }
+  #requirements-a {
+    font-size: 18px;
+  }
+  @media (min-width: 600px) {
+    #requirements-a {
+      font-size: 28px;
+    }
+    #requirements-a:hover {
+      font-size: 30px;
+    }
+  }
 
   /* Gift Cards Section */
   
@@ -548,6 +562,7 @@ body {
       flex-direction: column;
       align-items: center;
       overflow: hidden;
+      margin: 10px 0px 0px 0px;
   }
   @media (min-width: 450px){
     .gift-cards{
@@ -568,7 +583,7 @@ body {
   .gift-cards-p{
       margin: 0px;
       padding: 0px;
-      margin: 20px 0px 20px 0px;
+      margin: 20px 0px 0px 0px;
       border: 0px;
       font-size: 18px;
   }
