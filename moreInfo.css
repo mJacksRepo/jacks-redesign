@@ -418,6 +418,18 @@ body {
           font-size: 60px;
       }
   }
+  #attractions-h3 {
+    font-family: 'Permanent Marker', sans-serif;    
+    font-size: 22px;
+    width: 100vw;
+    text-align: center;
+    z-index: 2;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .category-div{
       display: flex;
       flex-direction: column;
