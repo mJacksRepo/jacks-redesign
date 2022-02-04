@@ -291,7 +291,7 @@ function lazyLoading() {
   a.src = "jacksImages/goKartsExperience.jpeg";
 
   var b = document.getElementById("b");
-  b.src = "jacksImages/partySpaceExperience.webp";
+  b.src = "#"; // wipeout
 
   var c = document.getElementById("c");
   c.src = "jacksImages/miniGolfExperience.jpeg";
@@ -303,10 +303,10 @@ function lazyLoading() {
   e.src = "jacksImages/arcadeExperience.jpeg";
 
   var f = document.getElementById("f");
-  f.src = "jacksImages/waveRiderExperience.png";
+  f.src = "#"; // swing ship
 
   var g = document.getElementById("g");
-  g.src = "jacksImages/hologateVRExperience.jpeg";
+  g.src = "jacksImages/spinZoneExperience.jpeg";
 
   var h = document.getElementById("h");
   h.src = "jacksImages/laserTagExperience.jpeg";
@@ -323,11 +323,11 @@ function lazyLoading() {
   var l = document.getElementById("l");
   l.src = "jacksImages/shootOutExperience.jpeg";
 
-  var m = document.getElementById("m");
+  /*var m = document.getElementById("m");
   m.src = "jacksImages/xRiderExperience.png";
 
   var n = document.getElementById("n");
-  n.src = "jacksImages/spinZoneExperience.jpeg";
+  n.src = "jacksImages/spinZoneExperience.jpeg";*/
 
   var o = document.getElementById("o");
   o.src = "jacksImages/groupEvents.jpg";
