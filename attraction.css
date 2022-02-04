@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@300&display=swap');
+
 
 
 html, body{
@@ -441,6 +443,20 @@ body {
           font-size: 60px;
       }
   }
+  .about-h3 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 28px;
+    margin: 10px 0px 0px 0px;
+    color: rgb(15, 8, 75);
+  }
+  .about-h4 {
+    font-family: 'Saira Extra Condensed', sans-serif;
+    font-size: 26px;
+    margin: 5px 0px 0px 0px;    
+    background: -webkit-linear-gradient(rgb(87, 2, 104), rgb(187, 108, 211));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
   .about-h5 {
     font-family: 'Permanent Marker', sans-serif;    
     font-size: 24px;
@@ -483,11 +499,23 @@ body {
     line-height: 175%;
     width: 70%;
   }
+  .req-p{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 14px;
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 5px 0px;
+    width: 70%;
+  }
   @media (min-width: 600px){
       .about-p{
         width: 500px;
         font-size: 18px;
         line-height: 225%;
+      }
+      .req-p{
+        font-size: 18px;
+        margin: 5px 0px 0px 0px;
       }
   }
 
