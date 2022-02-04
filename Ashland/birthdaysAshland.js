@@ -253,7 +253,7 @@ function fullSailPackage(){
 
   a.className = "package-button-selected";
   b.className = "package-button-unselected";
-  c.href = "#";
+  c.href = "https://malibujacksashland.centeredgeonline.com/event/description/2941a96c-5a1e-4b1e-9154-b89d999c0a83";
 
   x.className = "package-div-displayed-full-sail";
   y.className = "package-div-hidden";
