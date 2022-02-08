@@ -441,9 +441,10 @@ body {
   }
   .contact-form-p{
     font-family: 'Oswald', sans-serif;
-    font-size: 16px;
+    font-size: 14px;
     margin: 5px 0px 0px 0px;
     padding: 0px 5px 0px 5px;
+    width: 75%;
   }
   .short-input-container{
       display: flex;
@@ -457,11 +458,11 @@ body {
   }
   @media (min-width: 575px){
     .short-input-container{
-      width: 574px;
+      width: 594px;
     }
   }
   .short-input{
-      width: 130px;
+      width: 140px;
       margin: 10px 5px 0px 5px;
       border-style: none;
       border-bottom: 2px solid rgb(87, 2, 104);
@@ -471,8 +472,8 @@ body {
   @media (min-width: 700px){
     .short-input{
       margin: 20px 5px 0px 5px;
-      font-size: 20px;
-      width: 190px;
+      font-size: 18px;
+      width: 200px;
     }
   }
   .select{
