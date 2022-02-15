@@ -79,11 +79,52 @@
         <h2 id="contact-h2">Group Booking</h2>
         <form action="https://formsubmit.co/tbarron.tbchase@gmail.com" method="POST">
             <div class="short-input-container">
-                <input class="short-input" type="text" name="first-name" placeholder="First Name" maxlength="100" required>
-                <input class="short-input" type="text" name="last-name" placeholder="Last Name" maxlength="100" required>
-                <input class="short-input" type="text" name="organization" placeholder="Organization" maxlength="100">
-                <input class="short-input" type="text" name="phone-number" placeholder="Phone Number" maxlength="100" required>
-                <select class="select" name="guests-number" id="guests-number" required>
+                <input class="short-input" type="text" name="first-name" placeholder="First Name*" maxlength="100" required>
+                <input class="short-input" type="text" name="last-name" placeholder="Last Name*" maxlength="100" required>
+                <input class="short-input" type="text" name="organization" placeholder="Organization*" maxlength="100">
+                <input class="short-input" type="text" name="phone-number" placeholder="Phone Number*" maxlength="100" required>
+                <input class="short-input" type="text" name="email" placeholder="Email*" maxlength="100" required>
+                <p class="contact-form-p">
+                    What date and time would you prefer to visit?
+                </p>
+                <input class="short-input" type="text" name="date-time" placeholder="Ex Dec 11th, 2022 at 7pm*" maxlength="100" required>
+                <p class="contact-form-p">
+                    You're welcome to give us an address for our records in case we need to send you lost items or thank you cards!
+                </p>
+                <input class="short-input" type="text" name="street-address" placeholder="Street Address" maxlength="100">
+                <input class="short-input" type="text" name="street-address-line-2" placeholder="Street Address Line 2" maxlength="100">
+                <input class="short-input" type="text" name="city" placeholder="City" maxlength="100">
+                <input class="short-input" type="text" name="state" placeholder="State" maxlength="100">
+                <input class="short-input" type="text" name="zip-code" placeholder="Zip Code" maxlength="100">
+                <input class="short-input" type="text" name="country" placeholder="Country" maxlength="100">
+                <select class="select" name="guest-count" id="guest-count" required>
+                    <option value="package" disabled selected hidden>Number of Guests*</option>
+                    <option value="15-29">15-29</option>
+                    <option value="30-49">30-49</option>
+                    <option value="50-99">50-99</option>
+                    <option value="100-149">100-149</option>
+                    <option value="150-249">150-249</option>
+                    <option value="250-499">250-499</option>
+                    <option value="500+">500+</option>
+                </select>
+                <select class="select" name="guest-ages" id="guest-ages" required>
+                    <option value="package" disabled selected hidden>Age of Guests*</option>
+                    <option value="mix">Mix of all ages</option>
+                    <option value="7-younger">Ages 7 and younger</option>
+                    <option value="8-10">Ages 8-10</option>
+                    <option value="11-14">Ages 11-14</option>
+                    <option value="15-18">Ages 15-18</option>
+                    <option value="19+">Ages 19+</option>
+                </select>
+                <select class="select" name="package" id="package" required>
+                    <option value="package" disabled selected hidden>Preferred Package*</option>
+                    <option value="standard-group">Standard Group (15+ Guests)</option>
+                    <option value="large-unlimited">Large Group/Unlimited (50+)</option>
+                    <option value="field-trip">Field Trip/School Package (30+)</option>
+                    <option value="cabana">Cabana Rental ($50 for 90 mins)</option>
+                    <option value="unsure-contact">Unsure, Please Contact Me</option>
+                </select>
+                <!--<select class="select" name="guests-number" id="guests-number" required>
                     <option value="package" disabled selected hidden>Number of Guests</option>
                     <option value="praise">50-99</option>
                     <option value="complaint">100-199</option>
@@ -108,7 +149,7 @@
                     <option value="question">2</option>
                     <option value="question">3</option>
                     <option value="question">4</option>
-                </select>
+                </select>-->
             </div>
             <textarea class="long-input" type="text" name="text" placeholder="Additional notes or questions..." maxlength="1000" required></textarea><br>
             <input type="hidden" name="_next" value="https://malibujacks.net/ashland">
