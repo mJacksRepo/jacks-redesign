@@ -430,6 +430,62 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
+  .every-day-table-container{
+      width: 90vw;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      align-content: center;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      margin: 10px 0px 10px 0px;
+  }
+  .every-day-table-div{
+      width: auto;
+      display: flex;
+      justify-content: center;
+      align-content: space-between;
+      flex-wrap: wrap;
+      margin: 5px 0px 0px 0px;
+
+  }
+  .every-day-p{
+      font-style: "Oswald", sans-serif;
+      font-size: 18px;
+      color: rgb(12, 2, 48);
+      margin: 0px;
+      line-height: 175%;
+  }
+  @media (min-width: 400px){
+    .every-day-p{
+      font-size: 22px;
+    }
+  }
+  #deal20{
+    color: rgb(31, 101, 233);
+  }
+  #deal40{
+    color: rgb(31, 101, 233);
+  }
+  #deal50{
+    color: rgb(31, 101, 233);
+  }
+  #deal100{
+    color: rgb(31, 101, 233);
+  }
+  #deal2{
+    color: rgb(31, 101, 233);
+  }
+  #deal6{
+    color: rgb(31, 101, 233);
+  }
+  #deal10{
+      color: rgb(77, 172, 58);
+  }
+  #deal30{
+    color: rgb(25, 129, 30);
+  }
   .category-div{
       display: flex;
       flex-direction: column;
