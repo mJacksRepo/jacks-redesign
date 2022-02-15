@@ -105,21 +105,18 @@
     <!-- Contact Form -->
 
     <section class="contact-form">
+        
         <h2 id="contact-h2">Contact Us</h2>
         <form action="https://formsubmit.co/tbarron.tbchase@gmail.com" method="POST">
             <div class="short-input-container">
-                <input class="short-input" type="name" name="first name" placeholder="First Name" maxlength="100" required>
-                <input class="short-input" type="name" name="last name" placeholder="Last Name" maxlength="100" required>
-                <input class="short-input" type="email" name="email" placeholder="Email" maxlength="100" required>
-                <select class="select" name="subject" id="subject" required>
-                    <option value="" disabled selected hidden>Subject</option>
-                    <option value="praise">Praise</option>
-                    <option value="complaint">Complaint</option>
-                    <option value="question">Question</option>
-                </select>
+                <input class="short-input" type="name" name="first name" placeholder="First Name*" maxlength="100" required>
+                <input class="short-input" type="name" name="last name" placeholder="Last Name*" maxlength="100" required>
+                <input class="short-input" type="email" name="email" placeholder="Email*" maxlength="100" required>
+                <input class="short-input" type="text" name="phone-number" placeholder="Phone Number" maxlength="100">
+                <input class="short-input" type="text" name="subject" placeholder="Subject" maxlength="100">
             </div>
             <textarea class="long-input" type="text" name="text" placeholder="Send us a message here..." maxlength="1000" required></textarea><br>
-            <input type="hidden" name="_next" value="https://www.malibujacks.net/louisville">
+            <input type="hidden" name="_next" value="https://malibujacks.net/louisville">
             <button class="submit-button" type="submit">SEND</button>
         </form>
     </section>
