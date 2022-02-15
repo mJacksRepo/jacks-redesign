@@ -485,7 +485,7 @@ body {
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     padding: 0px 0px 0px 0px; 
-    margin: 5px 0px 5px 0px;
+    margin: 0px 0px 5px 0px;
     width: 70%;
   }
   @media (min-width: 400px){
