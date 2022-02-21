@@ -291,7 +291,7 @@ function lazyLoading() {
   a.src = "jacksImages/goKartsExperience.jpeg";
 
   var b = document.getElementById("b");
-  b.src = "#"; // wipeout
+  b.src = "jacksImages/wipeOutExperience.png"; // wipeout
 
   var c = document.getElementById("c");
   c.src = "jacksImages/miniGolfExperience.jpeg";
@@ -303,7 +303,7 @@ function lazyLoading() {
   e.src = "jacksImages/arcadeExperience.jpeg";
 
   var f = document.getElementById("f");
-  f.src = "#"; // swing ship
+  f.src = "jacksImages/swingingShipExperience.jpg"; // swing ship
 
   var g = document.getElementById("g");
   g.src = "jacksImages/spinZoneExperience.jpeg";
