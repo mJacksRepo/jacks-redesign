@@ -700,6 +700,9 @@ body {
       font-size: 50px;
     }
   }
+  #margin-fix {
+    margin: 20px 0px 0px 0px;
+  }
   .every-day-table-container{
       width: 90vw;
       height: auto;
