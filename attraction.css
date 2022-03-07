@@ -308,7 +308,7 @@ body {
   }
   @media (min-width: 800px){
     .slideshow{
-        top: 300px;
+        margin: 0px 0px 0px 0px;
     }
   }
   .slideshow-container{
