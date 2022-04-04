@@ -473,7 +473,7 @@ body {
     text-align: left;
     width: 260px;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     padding: 0px 5px 0px 10px; 
     margin: 5px 0px 5px 0px;      
   }
@@ -516,7 +516,7 @@ body {
   }
   .package-time-p{
       font-family: 'Oswald';
-      font-size: 18px;
+      font-size: 14px;
       color: rgb(32, 26, 58);
       margin: 0px;
   }

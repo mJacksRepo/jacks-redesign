@@ -424,12 +424,12 @@ body {
     text-align: left;
     width: 70%;
     font-family: 'Oswald', sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     margin: 5px 0px 5px 0px;      
   }
   @media (min-width: 350px){
       .fundraising-p{
-          font-size: 24px;
+          font-size: 14px;
           margin: 20px 0px 5px 0px;   
 
       }
