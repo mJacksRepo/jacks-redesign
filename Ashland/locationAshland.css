@@ -1234,6 +1234,7 @@ main{
   background-color: #fff;
   width: 135px;
   height: 60px;
+  margin: 20px 0px 20px 0px;
   display: flex;
   justify-content: center;
   align-items: center;
