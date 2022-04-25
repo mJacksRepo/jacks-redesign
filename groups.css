@@ -404,14 +404,14 @@ body {
 .group-p{
   font-family: 'Oswald', sans-serif;
   font-size: 14px;
-  color: rgb(43, 39, 44);
+  color: #fff;
   margin: 10px 10px 0px 10px;
   line-height: 175%;
   width: 70%;
 }
 @media (min-width: 600px){
   .group-p{
-    font-size: 24px;
+    font-size: 18px;
     margin: 20px 10px 0px 10px;
     width: 500px;
   }
@@ -459,7 +459,7 @@ body {
 .group-span-2{
   font-family: 'Oswald', sans-serif;
   font-size: 18px;
-  color: rgb(42, 51, 177);
+  color: rgb(228, 199, 251);
 }
 @media (min-width: 600px){
   .group-span-2{
@@ -496,6 +496,145 @@ body {
   }
   .group-a:hover {
     font-size: 34px;
+  }
+}
+#group-buttons-container{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  flex-direction: row;
+  width: 280px;
+  margin: 10px 0px 0px 0px;
+}
+@media (min-width: 600px){
+  #group-buttons-container{
+    width: 384.5px;
+    height: 80px;
+    margin: 40px 0px 0px 0px;
+  }
+}
+.group-packages-button{
+  background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(189, 23, 204));
+  width: 88.5px;
+  height: 50px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  border-radius: 2px;
+}
+@media (min-width: 600px){
+  .group-packages-button{
+    height: 80px;
+    width: 121.5px;
+  }
+}
+.package-div-displayed{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(189, 23, 204));
+}
+.subtext-div {
+  margin: 10px 0px 0px 0px;
+}
+.package-div-displayed-fun{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(42, 51, 177), rgb(95, 37, 191));
+}
+.package-div-displayed-full-sail{
+    margin-top: 20px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(95, 37, 191), rgb(189,23,204));
+}
+@media (min-width: 500px) {
+  .package-div-displayed {
+    min-width: 400px;
+  }
+}
+@media (min-width: 600px){
+  .package-div-displayed{
+    width: 500px;
+    margin: 40px 0px 0px 0px
+  }
+}
+.package-div-hidden{
+    display: none;
+}
+.package-div-h3{
+    font-family: 'Permanent Marker', sans-serif;
+    font-size: 28px;
+    color: #fff;
+    margin: 10px 0px 0px 0px;
+}
+@media (min-width: 500px){
+  .package-div-h3{
+    font-size: 34px;
+    margin: 30px 0px 0px 0px;
+  }
+}
+.package-div-p{
+    font-family: "Oswald", sans-serif;
+    font-size: 18px;
+    color: #fff;
+    padding: 0px 5px 0px 10px;
+    margin: 0px 0px 15px 0px;
+}
+@media (min-width: 500px){
+  .package-div-p{
+    font-size: 24px;
+  }
+}
+.package-book-now{
+    height: 60px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 1px;
+    margin: 20px 0px 20px 0px;
+}
+@media (min-width: 500px){
+  .package-book-now{
+    height: 80px;
+    width: 220px;
+    margin: 30px 0px 30px 0px;
+  }
+}
+.package-book-a{
+    text-decoration: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 24px;
+    color: rgb(43, 39, 44);
+}
+@media (min-width: 500px){
+  .package-book-a{
+    font-size: 36px;
+  }
+}
+@media (min-width: 900px) {
+  .package-book-a:hover {
+      font-size: 38px;
   }
 }
 
@@ -609,10 +748,10 @@ body {
 }
 @media (min-width: 600px){
   .unlimited-button-p{
-    font-size: 24px;
+    font-size: 20px;
   }
   .unlimited-button-p:hover {
-    font-size: 26px;
+    font-size: 24px;
     cursor: pointer;
   }
 }
@@ -824,10 +963,10 @@ body {
 }
 @media (min-width: 600px){
   #submit-a{
-    font-size: 34px;
+    font-size: 30px;
   }
   #submit-a:hover {
-    font-size: 36px;
+    font-size: 32px;
   }
 }
 

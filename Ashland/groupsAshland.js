@@ -459,3 +459,59 @@ function addCabana(){
 
   cabanaCost();
 }
+
+/* Groups Package Selection */
+
+function package12() {
+  var a = document.getElementById("button-12");
+  var b = document.getElementById("button-17");
+  var c = document.getElementById("button-22");
+
+  var x = document.getElementById("group-12");
+  var y = document.getElementById("group-17");
+  var z = document.getElementById("group-22");
+
+  a.className = "group-packages-button selected";
+  b.className = "group-packages-button";
+  c.className = "group-packages-button";
+
+  x.className = "package-div-displayed";
+  y.className = "package-div-hidden";
+  z.className = "package-div-hidden";
+}
+
+function package17() {
+  var a = document.getElementById("button-12");
+  var b = document.getElementById("button-17");
+  var c = document.getElementById("button-22");
+
+  var x = document.getElementById("group-12");
+  var y = document.getElementById("group-17");
+  var z = document.getElementById("group-22");
+
+  a.className = "group-packages-button";
+  b.className = "group-packages-button selected";
+  c.className = "group-packages-button";
+
+  x.className = "package-div-hidden";
+  y.className = "package-div-displayed";
+  z.className = "package-div-hidden";
+}
+
+function package22() {
+  var a = document.getElementById("button-12");
+  var b = document.getElementById("button-17");
+  var c = document.getElementById("button-22");
+
+  var x = document.getElementById("group-12");
+  var y = document.getElementById("group-17");
+  var z = document.getElementById("group-22");
+
+  a.className = "group-packages-button";
+  b.className = "group-packages-button";
+  c.className = "group-packages-button selected";
+
+  x.className = "package-div-hidden";
+  y.className = "package-div-hidden";
+  z.className = "package-div-displayed";
+}
