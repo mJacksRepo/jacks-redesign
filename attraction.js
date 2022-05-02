@@ -24,7 +24,7 @@ function myFunction() {
     var k = document.getElementById("hours-and-info-toggle");
     var l = document.getElementById("locations-toggle");
 
-    if (x.style.display === "flex"){
+    if (x.style.display === "flex" && currentWidth < desktopWidth){
       x.style.display = "none";
       y.src = "../jacksImages/white-menu-icon.jpg";
       y.style.margin = "-10px -10px 0px 0px";
@@ -37,7 +37,7 @@ function myFunction() {
       d.style.display = "none";
       e.style.display = "none";
       f.style.display = "none";
-    } else {
+    } else if (currentWidth < desktopWidth) {
       x.style.display = "flex";
       x.style.flexWrap = "wrap";
       x.style.justifyContent = "space-between";
